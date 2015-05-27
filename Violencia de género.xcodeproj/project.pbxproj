@@ -13,6 +13,10 @@
 		493476D61B15232200379C73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493476D51B15232200379C73 /* Images.xcassets */; };
 		493476D91B15232200379C73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493476D71B15232200379C73 /* LaunchScreen.xib */; };
 		493476E51B15232200379C73 /* Violencia_de_ge_neroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476E41B15232200379C73 /* Violencia_de_ge_neroTests.swift */; };
+		493476EF1B15241100379C73 /* QueEsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476EE1B15241100379C73 /* QueEsViewController.swift */; };
+		493476F11B15272E00379C73 /* DefinicionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476F01B15272E00379C73 /* DefinicionViewController.swift */; };
+		493476F31B15360600379C73 /* RasgosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476F21B15360600379C73 /* RasgosViewController.swift */; };
+		493476F51B15A74E00379C73 /* QueHacerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476F41B15A74E00379C73 /* QueHacerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		493476DE1B15232200379C73 /* Violencia de géneroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Violencia de géneroTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		493476E31B15232200379C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		493476E41B15232200379C73 /* Violencia_de_ge_neroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Violencia_de_ge_neroTests.swift; sourceTree = "<group>"; };
+		493476EE1B15241100379C73 /* QueEsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueEsViewController.swift; sourceTree = "<group>"; };
+		493476F01B15272E00379C73 /* DefinicionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinicionViewController.swift; sourceTree = "<group>"; };
+		493476F21B15360600379C73 /* RasgosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RasgosViewController.swift; sourceTree = "<group>"; };
+		493476F41B15A74E00379C73 /* QueHacerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueHacerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +85,12 @@
 		493476CB1B15232200379C73 /* Violencia de género */ = {
 			isa = PBXGroup;
 			children = (
-				493476CE1B15232200379C73 /* AppDelegate.swift */,
 				493476D01B15232200379C73 /* ViewController.swift */,
 				493476D21B15232200379C73 /* Main.storyboard */,
-				493476D51B15232200379C73 /* Images.xcassets */,
-				493476D71B15232200379C73 /* LaunchScreen.xib */,
+				493476F41B15A74E00379C73 /* QueHacerViewController.swift */,
+				493476F21B15360600379C73 /* RasgosViewController.swift */,
+				493476F01B15272E00379C73 /* DefinicionViewController.swift */,
+				493476EE1B15241100379C73 /* QueEsViewController.swift */,
 				493476CC1B15232200379C73 /* Supporting Files */,
 			);
 			path = "Violencia de género";
@@ -90,6 +99,9 @@
 		493476CC1B15232200379C73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				493476CE1B15232200379C73 /* AppDelegate.swift */,
+				493476D71B15232200379C73 /* LaunchScreen.xib */,
+				493476D51B15232200379C73 /* Images.xcassets */,
 				493476CD1B15232200379C73 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,7 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493476F51B15A74E00379C73 /* QueHacerViewController.swift in Sources */,
+				493476F31B15360600379C73 /* RasgosViewController.swift in Sources */,
+				493476F11B15272E00379C73 /* DefinicionViewController.swift in Sources */,
 				493476D11B15232200379C73 /* ViewController.swift in Sources */,
+				493476EF1B15241100379C73 /* QueEsViewController.swift in Sources */,
 				493476CF1B15232200379C73 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
