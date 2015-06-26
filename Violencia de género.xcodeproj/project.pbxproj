@@ -17,6 +17,41 @@
 		493476F11B15272E00379C73 /* DefinicionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476F01B15272E00379C73 /* DefinicionViewController.swift */; };
 		493476F31B15360600379C73 /* RasgosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476F21B15360600379C73 /* RasgosViewController.swift */; };
 		493476F51B15A74E00379C73 /* QueHacerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476F41B15A74E00379C73 /* QueHacerViewController.swift */; };
+		493476F71B15AFAA00379C73 /* OrdenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476F61B15AFAA00379C73 /* OrdenViewController.swift */; };
+		493476F91B15DF3500379C73 /* SerEspViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476F81B15DF3500379C73 /* SerEspViewController.swift */; };
+		493476FB1B15E1F000379C73 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476FA1B15E1F000379C73 /* TestViewController.swift */; };
+		493476FD1B15E60600379C73 /* ObjetivoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493476FC1B15E60600379C73 /* ObjetivoViewController.swift */; };
+		4957AE7B1B28710E002223E2 /* suelta.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4957AE7A1B28710E002223E2 /* suelta.mov */; };
+		4957AE7D1B28B73D002223E2 /* Pregunta1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE7C1B28B73D002223E2 /* Pregunta1ViewController.swift */; };
+		4957AE7F1B28B7BE002223E2 /* PeligroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE7E1B28B7BE002223E2 /* PeligroViewController.swift */; };
+		4957AE811B28F617002223E2 /* Pregunta2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE801B28F617002223E2 /* Pregunta2ViewController.swift */; };
+		4957AE831B28FAFB002223E2 /* Pregunta3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE821B28FAFB002223E2 /* Pregunta3ViewController.swift */; };
+		4957AE851B290118002223E2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4957AE841B290118002223E2 /* MediaPlayer.framework */; };
+		4957AE871B3186D8002223E2 /* ConductasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE861B3186D8002223E2 /* ConductasViewController.swift */; };
+		4957AE8B1B319D7C002223E2 /* MCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE8A1B319D7C002223E2 /* MCRViewController.swift */; };
+		4957AE8D1B31A491002223E2 /* MSPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE8C1B31A491002223E2 /* MSPViewController.swift */; };
+		4957AE8F1B31AAA8002223E2 /* Pregunta4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE8E1B31AAA8002223E2 /* Pregunta4ViewController.swift */; };
+		4957AE911B31AB18002223E2 /* Pregunta5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE901B31AB18002223E2 /* Pregunta5ViewController.swift */; };
+		4957AE931B31AB95002223E2 /* Pregunta6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE921B31AB95002223E2 /* Pregunta6ViewController.swift */; };
+		4957AE951B31ACA2002223E2 /* Pregunta7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE941B31ACA2002223E2 /* Pregunta7ViewController.swift */; };
+		4957AE971B31ACAE002223E2 /* Pregunta8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE961B31ACAE002223E2 /* Pregunta8ViewController.swift */; };
+		4957AE991B31ACBD002223E2 /* Pregunta9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE981B31ACBD002223E2 /* Pregunta9ViewController.swift */; };
+		4957AE9B1B31ACCA002223E2 /* Pregunta10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE9A1B31ACCA002223E2 /* Pregunta10ViewController.swift */; };
+		4957AE9D1B31ACD4002223E2 /* Pregunta11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE9C1B31ACD4002223E2 /* Pregunta11ViewController.swift */; };
+		4957AE9F1B31ACE1002223E2 /* Pregunta12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AE9E1B31ACE1002223E2 /* Pregunta12ViewController.swift */; };
+		4957AEA11B31ACEE002223E2 /* Pregunta13ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEA01B31ACEE002223E2 /* Pregunta13ViewController.swift */; };
+		4957AEA31B31AD00002223E2 /* Pregunta14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEA21B31AD00002223E2 /* Pregunta14ViewController.swift */; };
+		4957AEA51B31AD10002223E2 /* Pregunta15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEA41B31AD10002223E2 /* Pregunta15ViewController.swift */; };
+		4957AEA71B31AD1F002223E2 /* Pregunta16ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEA61B31AD1F002223E2 /* Pregunta16ViewController.swift */; };
+		4957AEA91B31AD2C002223E2 /* Pregunta17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEA81B31AD2C002223E2 /* Pregunta17ViewController.swift */; };
+		4957AEAB1B31AD38002223E2 /* Pregunta18ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEAA1B31AD38002223E2 /* Pregunta18ViewController.swift */; };
+		4957AEAD1B31AD45002223E2 /* Pregunta19ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEAC1B31AD45002223E2 /* Pregunta19ViewController.swift */; };
+		4957AEAF1B31AD5A002223E2 /* Pregunta20ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEAE1B31AD5A002223E2 /* Pregunta20ViewController.swift */; };
+		4957AEB11B31AD67002223E2 /* Pregunta21ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEB01B31AD67002223E2 /* Pregunta21ViewController.swift */; };
+		4957AEB31B31AD75002223E2 /* Pregunta22ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEB21B31AD75002223E2 /* Pregunta22ViewController.swift */; };
+		4957AEB51B31AD84002223E2 /* Pregunta23ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEB41B31AD84002223E2 /* Pregunta23ViewController.swift */; };
+		4957AEB71B31AD92002223E2 /* Pregunta24ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEB61B31AD92002223E2 /* Pregunta24ViewController.swift */; };
+		4957AEB91B31E6AA002223E2 /* ResultadoTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEB81B31E6AA002223E2 /* ResultadoTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +79,41 @@
 		493476F01B15272E00379C73 /* DefinicionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinicionViewController.swift; sourceTree = "<group>"; };
 		493476F21B15360600379C73 /* RasgosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RasgosViewController.swift; sourceTree = "<group>"; };
 		493476F41B15A74E00379C73 /* QueHacerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueHacerViewController.swift; sourceTree = "<group>"; };
+		493476F61B15AFAA00379C73 /* OrdenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdenViewController.swift; sourceTree = "<group>"; };
+		493476F81B15DF3500379C73 /* SerEspViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerEspViewController.swift; sourceTree = "<group>"; };
+		493476FA1B15E1F000379C73 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		493476FC1B15E60600379C73 /* ObjetivoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjetivoViewController.swift; sourceTree = "<group>"; };
+		4957AE7A1B28710E002223E2 /* suelta.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = suelta.mov; path = ../../Documents/EPV/suelta.mov; sourceTree = "<group>"; };
+		4957AE7C1B28B73D002223E2 /* Pregunta1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta1ViewController.swift; sourceTree = "<group>"; };
+		4957AE7E1B28B7BE002223E2 /* PeligroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeligroViewController.swift; sourceTree = "<group>"; };
+		4957AE801B28F617002223E2 /* Pregunta2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta2ViewController.swift; sourceTree = "<group>"; };
+		4957AE821B28FAFB002223E2 /* Pregunta3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta3ViewController.swift; sourceTree = "<group>"; };
+		4957AE841B290118002223E2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4957AE861B3186D8002223E2 /* ConductasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConductasViewController.swift; sourceTree = "<group>"; };
+		4957AE8A1B319D7C002223E2 /* MCRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCRViewController.swift; sourceTree = "<group>"; };
+		4957AE8C1B31A491002223E2 /* MSPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSPViewController.swift; sourceTree = "<group>"; };
+		4957AE8E1B31AAA8002223E2 /* Pregunta4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta4ViewController.swift; sourceTree = "<group>"; };
+		4957AE901B31AB18002223E2 /* Pregunta5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta5ViewController.swift; sourceTree = "<group>"; };
+		4957AE921B31AB95002223E2 /* Pregunta6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta6ViewController.swift; sourceTree = "<group>"; };
+		4957AE941B31ACA2002223E2 /* Pregunta7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta7ViewController.swift; sourceTree = "<group>"; };
+		4957AE961B31ACAE002223E2 /* Pregunta8ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta8ViewController.swift; sourceTree = "<group>"; };
+		4957AE981B31ACBD002223E2 /* Pregunta9ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta9ViewController.swift; sourceTree = "<group>"; };
+		4957AE9A1B31ACCA002223E2 /* Pregunta10ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta10ViewController.swift; sourceTree = "<group>"; };
+		4957AE9C1B31ACD4002223E2 /* Pregunta11ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta11ViewController.swift; sourceTree = "<group>"; };
+		4957AE9E1B31ACE1002223E2 /* Pregunta12ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta12ViewController.swift; sourceTree = "<group>"; };
+		4957AEA01B31ACEE002223E2 /* Pregunta13ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta13ViewController.swift; sourceTree = "<group>"; };
+		4957AEA21B31AD00002223E2 /* Pregunta14ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta14ViewController.swift; sourceTree = "<group>"; };
+		4957AEA41B31AD10002223E2 /* Pregunta15ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta15ViewController.swift; sourceTree = "<group>"; };
+		4957AEA61B31AD1F002223E2 /* Pregunta16ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta16ViewController.swift; sourceTree = "<group>"; };
+		4957AEA81B31AD2C002223E2 /* Pregunta17ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta17ViewController.swift; sourceTree = "<group>"; };
+		4957AEAA1B31AD38002223E2 /* Pregunta18ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta18ViewController.swift; sourceTree = "<group>"; };
+		4957AEAC1B31AD45002223E2 /* Pregunta19ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta19ViewController.swift; sourceTree = "<group>"; };
+		4957AEAE1B31AD5A002223E2 /* Pregunta20ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta20ViewController.swift; sourceTree = "<group>"; };
+		4957AEB01B31AD67002223E2 /* Pregunta21ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta21ViewController.swift; sourceTree = "<group>"; };
+		4957AEB21B31AD75002223E2 /* Pregunta22ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta22ViewController.swift; sourceTree = "<group>"; };
+		4957AEB41B31AD84002223E2 /* Pregunta23ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta23ViewController.swift; sourceTree = "<group>"; };
+		4957AEB61B31AD92002223E2 /* Pregunta24ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta24ViewController.swift; sourceTree = "<group>"; };
+		4957AEB81B31E6AA002223E2 /* ResultadoTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultadoTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4957AE851B290118002223E2 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +138,8 @@
 		493476C01B15232200379C73 = {
 			isa = PBXGroup;
 			children = (
+				4957AE841B290118002223E2 /* MediaPlayer.framework */,
+				4957AE7A1B28710E002223E2 /* suelta.mov */,
 				493476CB1B15232200379C73 /* Violencia de género */,
 				493476E11B15232200379C73 /* Violencia de géneroTests */,
 				493476CA1B15232200379C73 /* Products */,
@@ -87,6 +160,39 @@
 			children = (
 				493476D01B15232200379C73 /* ViewController.swift */,
 				493476D21B15232200379C73 /* Main.storyboard */,
+				4957AEB81B31E6AA002223E2 /* ResultadoTestViewController.swift */,
+				4957AE941B31ACA2002223E2 /* Pregunta7ViewController.swift */,
+				4957AE961B31ACAE002223E2 /* Pregunta8ViewController.swift */,
+				4957AE981B31ACBD002223E2 /* Pregunta9ViewController.swift */,
+				4957AE9A1B31ACCA002223E2 /* Pregunta10ViewController.swift */,
+				4957AE9C1B31ACD4002223E2 /* Pregunta11ViewController.swift */,
+				4957AE9E1B31ACE1002223E2 /* Pregunta12ViewController.swift */,
+				4957AEA01B31ACEE002223E2 /* Pregunta13ViewController.swift */,
+				4957AEA21B31AD00002223E2 /* Pregunta14ViewController.swift */,
+				4957AEA41B31AD10002223E2 /* Pregunta15ViewController.swift */,
+				4957AEA61B31AD1F002223E2 /* Pregunta16ViewController.swift */,
+				4957AEA81B31AD2C002223E2 /* Pregunta17ViewController.swift */,
+				4957AEAA1B31AD38002223E2 /* Pregunta18ViewController.swift */,
+				4957AEAC1B31AD45002223E2 /* Pregunta19ViewController.swift */,
+				4957AEAE1B31AD5A002223E2 /* Pregunta20ViewController.swift */,
+				4957AEB01B31AD67002223E2 /* Pregunta21ViewController.swift */,
+				4957AEB21B31AD75002223E2 /* Pregunta22ViewController.swift */,
+				4957AEB41B31AD84002223E2 /* Pregunta23ViewController.swift */,
+				4957AEB61B31AD92002223E2 /* Pregunta24ViewController.swift */,
+				4957AE921B31AB95002223E2 /* Pregunta6ViewController.swift */,
+				4957AE901B31AB18002223E2 /* Pregunta5ViewController.swift */,
+				4957AE8E1B31AAA8002223E2 /* Pregunta4ViewController.swift */,
+				4957AE8C1B31A491002223E2 /* MSPViewController.swift */,
+				4957AE8A1B319D7C002223E2 /* MCRViewController.swift */,
+				4957AE861B3186D8002223E2 /* ConductasViewController.swift */,
+				4957AE821B28FAFB002223E2 /* Pregunta3ViewController.swift */,
+				4957AE801B28F617002223E2 /* Pregunta2ViewController.swift */,
+				4957AE7E1B28B7BE002223E2 /* PeligroViewController.swift */,
+				4957AE7C1B28B73D002223E2 /* Pregunta1ViewController.swift */,
+				493476FC1B15E60600379C73 /* ObjetivoViewController.swift */,
+				493476FA1B15E1F000379C73 /* TestViewController.swift */,
+				493476F81B15DF3500379C73 /* SerEspViewController.swift */,
+				493476F61B15AFAA00379C73 /* OrdenViewController.swift */,
 				493476F41B15A74E00379C73 /* QueHacerViewController.swift */,
 				493476F21B15360600379C73 /* RasgosViewController.swift */,
 				493476F01B15272E00379C73 /* DefinicionViewController.swift */,
@@ -173,6 +279,7 @@
 				TargetAttributes = {
 					493476C81B15232200379C73 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 978QFUFW97;
 					};
 					493476DD1B15232200379C73 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -204,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4957AE7B1B28710E002223E2 /* suelta.mov in Resources */,
 				493476D41B15232200379C73 /* Main.storyboard in Resources */,
 				493476D91B15232200379C73 /* LaunchScreen.xib in Resources */,
 				493476D61B15232200379C73 /* Images.xcassets in Resources */,
@@ -224,12 +332,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4957AEA91B31AD2C002223E2 /* Pregunta17ViewController.swift in Sources */,
 				493476F51B15A74E00379C73 /* QueHacerViewController.swift in Sources */,
 				493476F31B15360600379C73 /* RasgosViewController.swift in Sources */,
+				4957AE8B1B319D7C002223E2 /* MCRViewController.swift in Sources */,
+				4957AE9F1B31ACE1002223E2 /* Pregunta12ViewController.swift in Sources */,
+				4957AE7F1B28B7BE002223E2 /* PeligroViewController.swift in Sources */,
+				4957AEB71B31AD92002223E2 /* Pregunta24ViewController.swift in Sources */,
+				4957AEA71B31AD1F002223E2 /* Pregunta16ViewController.swift in Sources */,
+				4957AEAB1B31AD38002223E2 /* Pregunta18ViewController.swift in Sources */,
+				4957AEA51B31AD10002223E2 /* Pregunta15ViewController.swift in Sources */,
+				4957AE811B28F617002223E2 /* Pregunta2ViewController.swift in Sources */,
+				4957AE911B31AB18002223E2 /* Pregunta5ViewController.swift in Sources */,
 				493476F11B15272E00379C73 /* DefinicionViewController.swift in Sources */,
+				4957AE8D1B31A491002223E2 /* MSPViewController.swift in Sources */,
 				493476D11B15232200379C73 /* ViewController.swift in Sources */,
+				4957AEB31B31AD75002223E2 /* Pregunta22ViewController.swift in Sources */,
+				4957AE991B31ACBD002223E2 /* Pregunta9ViewController.swift in Sources */,
+				4957AEB11B31AD67002223E2 /* Pregunta21ViewController.swift in Sources */,
+				493476FD1B15E60600379C73 /* ObjetivoViewController.swift in Sources */,
+				4957AE8F1B31AAA8002223E2 /* Pregunta4ViewController.swift in Sources */,
+				4957AE971B31ACAE002223E2 /* Pregunta8ViewController.swift in Sources */,
 				493476EF1B15241100379C73 /* QueEsViewController.swift in Sources */,
 				493476CF1B15232200379C73 /* AppDelegate.swift in Sources */,
+				4957AE9D1B31ACD4002223E2 /* Pregunta11ViewController.swift in Sources */,
+				493476F91B15DF3500379C73 /* SerEspViewController.swift in Sources */,
+				4957AE871B3186D8002223E2 /* ConductasViewController.swift in Sources */,
+				4957AEB91B31E6AA002223E2 /* ResultadoTestViewController.swift in Sources */,
+				493476FB1B15E1F000379C73 /* TestViewController.swift in Sources */,
+				4957AEA11B31ACEE002223E2 /* Pregunta13ViewController.swift in Sources */,
+				4957AE831B28FAFB002223E2 /* Pregunta3ViewController.swift in Sources */,
+				4957AE7D1B28B73D002223E2 /* Pregunta1ViewController.swift in Sources */,
+				4957AEB51B31AD84002223E2 /* Pregunta23ViewController.swift in Sources */,
+				4957AEA31B31AD00002223E2 /* Pregunta14ViewController.swift in Sources */,
+				4957AEAF1B31AD5A002223E2 /* Pregunta20ViewController.swift in Sources */,
+				493476F71B15AFAA00379C73 /* OrdenViewController.swift in Sources */,
+				4957AEAD1B31AD45002223E2 /* Pregunta19ViewController.swift in Sources */,
+				4957AE931B31AB95002223E2 /* Pregunta6ViewController.swift in Sources */,
+				4957AE951B31ACA2002223E2 /* Pregunta7ViewController.swift in Sources */,
+				4957AE9B1B31ACCA002223E2 /* Pregunta10ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,9 +497,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Violencia de género/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -366,9 +511,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Violencia de género/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -425,6 +574,7 @@
 				493476EA1B15232200379C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		493476EB1B15232200379C73 /* Build configuration list for PBXNativeTarget "Violencia de géneroTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +583,7 @@
 				493476ED1B15232200379C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

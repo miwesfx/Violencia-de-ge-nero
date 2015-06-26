@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0228EFF3-65A4-4D3B-91CE-0B29CA33D11C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Violencia de género</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>452D3E139E08CBBC54D4946F7BEE546DEE88F3C1</key>
+		<string>https://github.com/miwesfx/Violencia-de-ge-nero.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Violencia de género.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>452D3E139E08CBBC54D4946F7BEE546DEE88F3C1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/miwesfx/Violencia-de-ge-nero.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>452D3E139E08CBBC54D4946F7BEE546DEE88F3C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>452D3E139E08CBBC54D4946F7BEE546DEE88F3C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Violencia%20de%20ge%CC%81nero</string>
+		</dict>
+	</array>
+</dict>
+</plist>
