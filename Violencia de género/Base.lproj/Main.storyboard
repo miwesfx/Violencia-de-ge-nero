@@ -1613,7 +1613,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3NF-wr-kZU" kind="show" id="Scf-oy-tPw"/>
+                                    <segue destination="4Ed-Gf-l9e" kind="show" id="RQV-f5-F6c"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Ha aumentado la violencia física sobre usted en el último año? " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fds-Yj-wTF">
@@ -1640,26 +1640,22 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="iCr-if-CY3" kind="show" id="Pd1-wF-Cej"/>
+                                    <segue destination="4Ed-Gf-l9e" kind="show" id="Fni-3w-stZ"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Ren-Yo-fht" firstAttribute="leading" secondItem="e9n-Wa-PB0" secondAttribute="leadingMargin" id="4gp-sw-WuO"/>
-                            <constraint firstAttribute="centerY" secondItem="Ren-Yo-fht" secondAttribute="centerY" id="7md-6j-O5K"/>
                             <constraint firstItem="Oh5-8P-csV" firstAttribute="top" secondItem="7m3-AX-dpB" secondAttribute="bottom" id="7q2-aV-r6Z"/>
-                            <constraint firstItem="Ren-Yo-fht" firstAttribute="leading" secondItem="e9n-Wa-PB0" secondAttribute="leadingMargin" constant="20" id="9mf-oG-3LC"/>
                             <constraint firstAttribute="trailing" secondItem="7m3-AX-dpB" secondAttribute="trailing" id="BM6-x5-OY9"/>
+                            <constraint firstItem="k3C-X7-fCs" firstAttribute="top" secondItem="fds-Yj-wTF" secondAttribute="bottom" constant="218" id="F8O-8V-bTU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fds-Yj-wTF" secondAttribute="trailing" id="KQB-ir-u0a"/>
-                            <constraint firstAttribute="centerY" secondItem="k3C-X7-fCs" secondAttribute="centerY" id="Kor-VJ-fRO"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="k3C-X7-fCs" secondAttribute="trailing" id="MBA-VS-esg"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="k3C-X7-fCs" secondAttribute="trailing" constant="20" id="Nka-U9-MDj"/>
                             <constraint firstItem="fds-Yj-wTF" firstAttribute="leading" secondItem="e9n-Wa-PB0" secondAttribute="leadingMargin" id="OX8-ZL-pkF"/>
+                            <constraint firstItem="k3C-X7-fCs" firstAttribute="trailing" secondItem="e9n-Wa-PB0" secondAttribute="trailingMargin" id="TRh-q8-UjK"/>
+                            <constraint firstItem="Ren-Yo-fht" firstAttribute="top" secondItem="fds-Yj-wTF" secondAttribute="bottom" constant="218" id="VIx-AP-VRq"/>
                             <constraint firstItem="fds-Yj-wTF" firstAttribute="top" secondItem="5a5-ot-LJy" secondAttribute="bottom" constant="8" id="Xhg-5P-L4A"/>
-                            <constraint firstItem="k3C-X7-fCs" firstAttribute="trailing" secondItem="e9n-Wa-PB0" secondAttribute="trailingMargin" constant="20" id="b4B-yJ-o1D"/>
                             <constraint firstItem="7m3-AX-dpB" firstAttribute="leading" secondItem="e9n-Wa-PB0" secondAttribute="leading" id="hDw-QA-CcC"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="k3C-X7-fCs" secondAttribute="trailing" constant="20" id="ua4-Jy-ZzK"/>
+                            <constraint firstItem="Ren-Yo-fht" firstAttribute="leading" secondItem="e9n-Wa-PB0" secondAttribute="leadingMargin" id="pF3-bG-LzQ"/>
                             <constraint firstItem="7m3-AX-dpB" firstAttribute="top" secondItem="e9n-Wa-PB0" secondAttribute="top" id="yR8-SI-6gt"/>
                         </constraints>
                         <variation key="default">
@@ -1670,21 +1666,17 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                 <exclude reference="k3C-X7-fCs"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="7q2-aV-r6Z"/>
-                                <exclude reference="4gp-sw-WuO"/>
-                                <exclude reference="7md-6j-O5K"/>
-                                <exclude reference="9mf-oG-3LC"/>
-                                <exclude reference="Kor-VJ-fRO"/>
-                                <exclude reference="MBA-VS-esg"/>
-                                <exclude reference="Nka-U9-MDj"/>
-                                <exclude reference="b4B-yJ-o1D"/>
-                                <exclude reference="ua4-Jy-ZzK"/>
                                 <exclude reference="BM6-x5-OY9"/>
                                 <exclude reference="hDw-QA-CcC"/>
                                 <exclude reference="yR8-SI-6gt"/>
                                 <exclude reference="KQB-ir-u0a"/>
                                 <exclude reference="OX8-ZL-pkF"/>
                                 <exclude reference="Xhg-5P-L4A"/>
+                                <exclude reference="VIx-AP-VRq"/>
+                                <exclude reference="pF3-bG-LzQ"/>
+                                <exclude reference="F8O-8V-bTU"/>
+                                <exclude reference="TRh-q8-UjK"/>
+                                <exclude reference="7q2-aV-r6Z"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -1695,27 +1687,27 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                 <include reference="k3C-X7-fCs"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="7q2-aV-r6Z"/>
-                                <exclude reference="4gp-sw-WuO"/>
-                                <include reference="7md-6j-O5K"/>
-                                <include reference="9mf-oG-3LC"/>
-                                <include reference="Kor-VJ-fRO"/>
-                                <exclude reference="MBA-VS-esg"/>
-                                <include reference="Nka-U9-MDj"/>
-                                <exclude reference="b4B-yJ-o1D"/>
-                                <exclude reference="ua4-Jy-ZzK"/>
                                 <include reference="BM6-x5-OY9"/>
                                 <include reference="hDw-QA-CcC"/>
                                 <include reference="yR8-SI-6gt"/>
                                 <include reference="KQB-ir-u0a"/>
                                 <include reference="OX8-ZL-pkF"/>
                                 <include reference="Xhg-5P-L4A"/>
+                                <include reference="VIx-AP-VRq"/>
+                                <include reference="pF3-bG-LzQ"/>
+                                <include reference="F8O-8V-bTU"/>
+                                <include reference="TRh-q8-UjK"/>
+                                <include reference="7q2-aV-r6Z"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 1" id="XF1-cR-Gev">
                         <barButtonItem key="backBarButtonItem" title="Atrás" id="sxq-Ui-YGK"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="botonNo" destination="k3C-X7-fCs" id="1Mm-x7-GgJ"/>
+                        <outlet property="botonSi" destination="Ren-Yo-fht" id="E6v-kd-qck"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZM-A0-8Rb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1742,7 +1734,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JF0-Nr-2BP" kind="show" id="Ihi-mu-YCt"/>
+                                    <segue destination="FmV-Eq-LzY" kind="show" id="n4D-5f-Gwe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HI-pm-hjL">
@@ -1751,7 +1743,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JF0-Nr-2BP" kind="show" id="FPs-B9-4O2"/>
+                                    <segue destination="FmV-Eq-LzY" kind="show" id="0Am-dv-2aK"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Le ha amenazado con una pistola alguna vez?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rh6-9o-LDT">
@@ -1831,10 +1823,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 7" id="18Z-o2-93I"/>
+                    <connections>
+                        <outlet property="botonNo" destination="FdH-lv-Ttx" id="aDA-P1-ErI"/>
+                        <outlet property="botonSi" destination="9HI-pm-hjL" id="JsI-ed-MZN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KGh-fP-eOG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5818.5" y="3202.5"/>
+            <point key="canvasLocation" x="11101.5" y="2446.5"/>
         </scene>
         <!--Pregunta 13-->
         <scene sceneID="DoB-Tq-hev">
@@ -1857,7 +1853,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="W2w-73-rEk" kind="show" id="PYE-dx-Ofs"/>
+                                    <segue destination="gww-Zi-dPw" kind="show" id="Khn-ac-7ZX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1E6-7A-Nxg">
@@ -1866,7 +1862,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="W2w-73-rEk" kind="show" id="0m7-gl-KDw"/>
+                                    <segue destination="gww-Zi-dPw" kind="show" id="5Hc-7o-CuQ"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Ha intentado alguna vez estrangularla?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rs5-CP-mRl">
@@ -1946,10 +1942,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 13" id="2Np-B3-GC7"/>
+                    <connections>
+                        <outlet property="botonNo" destination="1E6-7A-Nxg" id="Uxx-bI-BVT"/>
+                        <outlet property="botonSi" destination="s0d-lP-t7P" id="o5A-4g-ijF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qyI-m6-Fgp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5773.5" y="4018.5"/>
+            <point key="canvasLocation" x="10150.5" y="3191.25"/>
         </scene>
         <!--Pregunta 19-->
         <scene sceneID="tfe-uL-N1E">
@@ -1972,7 +1972,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hkw-b0-DV7" kind="show" id="h0H-3T-gEa"/>
+                                    <segue destination="Kq9-3h-kmV" kind="show" id="2iG-Yk-AcY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kC9-Dm-xvn">
@@ -1981,7 +1981,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hkw-b0-DV7" kind="show" id="jRs-3L-duE"/>
+                                    <segue destination="Kq9-3h-kmV" kind="show" id="5zm-af-CwR"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Alguna vez él ha amenazado con suicidarse?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWa-og-71n">
@@ -2061,10 +2061,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 19" id="pMy-wa-cN5"/>
+                    <connections>
+                        <outlet property="botonNo" destination="kC9-Dm-xvn" id="aRj-KX-x6B"/>
+                        <outlet property="botonSi" destination="qnk-fs-ffr" id="7rl-Qx-xJG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kRD-fn-saJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5725.5" y="4810.5"/>
+            <point key="canvasLocation" x="9505.5" y="3910.5"/>
         </scene>
         <!--Pregunta 14-->
         <scene sceneID="sph-4e-KWo">
@@ -2087,7 +2091,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="GyC-Rr-V90" kind="show" id="E2U-el-jSz"/>
+                                    <segue destination="fEn-xw-Bcv" kind="show" id="G7j-dq-hZr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQ0-cQ-Y1a">
@@ -2096,7 +2100,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="GyC-Rr-V90" kind="show" id="HYQ-IL-cUW"/>
+                                    <segue destination="fEn-xw-Bcv" kind="show" id="b0X-xm-B78"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Consume drogas? " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycf-wJ-cbk">
@@ -2176,10 +2180,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 14" id="psr-Qc-LfH"/>
+                    <connections>
+                        <outlet property="BotonSi" destination="ZMH-DO-TrD" id="eJh-1e-lo9"/>
+                        <outlet property="botonNo" destination="OQ0-cQ-Y1a" id="5Jb-Qs-m8Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UII-ld-cJo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7708.5" y="4048.5"/>
+            <point key="canvasLocation" x="11101.5" y="3202.5"/>
         </scene>
         <!--Pregunta 20-->
         <scene sceneID="FcK-ae-JJo">
@@ -2202,7 +2210,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Hsc-yQ-22F" kind="show" id="4w7-ON-wQW"/>
+                                    <segue destination="2xa-Jk-rLb" kind="show" id="eiz-EU-6lg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FFQ-Dd-ezc">
@@ -2211,7 +2219,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Hsc-yQ-22F" kind="show" id="iy5-QQ-n7f"/>
+                                    <segue destination="2xa-Jk-rLb" kind="show" id="i5r-gA-ykj"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Ha intentado suicidarse alguna vez?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oG9-4G-O3j">
@@ -2291,10 +2299,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 20" id="vEd-QE-dPO"/>
+                    <connections>
+                        <outlet property="botonNo" destination="FFQ-Dd-ezc" id="qHL-45-Je0"/>
+                        <outlet property="botonSi" destination="H9r-hS-z0X" id="Ump-Vz-4Dh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ceq-qb-5dU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7651.5" y="4798.5"/>
+            <point key="canvasLocation" x="10416" y="3914.25"/>
         </scene>
         <!--Pregunta 2-->
         <scene sceneID="r61-uE-2Bw">
@@ -2317,7 +2329,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9wH-3B-14o" kind="show" id="aON-FO-TRC"/>
+                                    <segue destination="dkm-LX-Hpx" kind="show" id="UWW-9L-y2c"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Tiene él un arma de fuego o blanca?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFv-CI-Pu7">
@@ -2331,25 +2343,23 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="TLq-5C-lu1" kind="show" id="qxu-rJ-5p1"/>
+                                    <segue destination="dkm-LX-Hpx" kind="show" id="nU6-g7-YCe"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="5mJ-vQ-ITD" firstAttribute="top" secondItem="f0j-f2-Fgq" secondAttribute="top" id="1aF-VF-VIe"/>
+                            <constraint firstItem="5mJ-vQ-ITD" firstAttribute="leading" secondItem="jXd-RR-U0n" secondAttribute="leadingMargin" id="18n-1J-mCi"/>
                             <constraint firstItem="bFv-CI-Pu7" firstAttribute="top" secondItem="QWC-Um-KMh" secondAttribute="bottom" constant="8" symbolic="YES" id="472-eP-RVK"/>
                             <constraint firstItem="7Zf-Fv-Omq" firstAttribute="top" secondItem="bFv-CI-Pu7" secondAttribute="bottom" constant="-142" id="4Tk-64-HBm"/>
-                            <constraint firstItem="5mJ-vQ-ITD" firstAttribute="leading" secondItem="jXd-RR-U0n" secondAttribute="leadingMargin" constant="20" id="95M-8S-sU1"/>
-                            <constraint firstItem="f0j-f2-Fgq" firstAttribute="leading" secondItem="7Zf-Fv-Omq" secondAttribute="trailing" constant="-140" id="D2U-Yf-NMT"/>
+                            <constraint firstItem="f0j-f2-Fgq" firstAttribute="trailing" secondItem="jXd-RR-U0n" secondAttribute="trailingMargin" id="6XP-a5-cGf"/>
+                            <constraint firstItem="5mJ-vQ-ITD" firstAttribute="top" secondItem="bFv-CI-Pu7" secondAttribute="bottom" constant="216" id="AtM-02-Ran"/>
                             <constraint firstItem="7Zf-Fv-Omq" firstAttribute="top" secondItem="jXd-RR-U0n" secondAttribute="top" id="F65-dK-g5m"/>
                             <constraint firstAttribute="trailing" secondItem="7Zf-Fv-Omq" secondAttribute="trailing" id="Fao-I7-dte"/>
                             <constraint firstItem="bFv-CI-Pu7" firstAttribute="leading" secondItem="7Zf-Fv-Omq" secondAttribute="trailing" constant="-384" id="YNS-kI-PEQ"/>
                             <constraint firstItem="bFv-CI-Pu7" firstAttribute="centerX" secondItem="7Zf-Fv-Omq" secondAttribute="centerX" id="a9U-k6-cPk"/>
-                            <constraint firstItem="f0j-f2-Fgq" firstAttribute="trailing" secondItem="jXd-RR-U0n" secondAttribute="trailingMargin" constant="20" id="fNp-mN-is9"/>
+                            <constraint firstItem="f0j-f2-Fgq" firstAttribute="top" secondItem="bFv-CI-Pu7" secondAttribute="bottom" constant="216" id="aZJ-eP-B9n"/>
                             <constraint firstItem="bFv-CI-Pu7" firstAttribute="leading" secondItem="7Zf-Fv-Omq" secondAttribute="trailing" constant="-384" id="mhB-6n-L1Y"/>
-                            <constraint firstItem="f0j-f2-Fgq" firstAttribute="top" secondItem="bFv-CI-Pu7" secondAttribute="bottom" constant="92" id="pwF-jG-qN2"/>
-                            <constraint firstItem="5mJ-vQ-ITD" firstAttribute="leading" secondItem="jXd-RR-U0n" secondAttribute="leadingMargin" constant="20" id="qfC-VA-iLc"/>
                             <constraint firstItem="7Zf-Fv-Omq" firstAttribute="leading" secondItem="jXd-RR-U0n" secondAttribute="leading" id="qiu-Gd-1Wc"/>
                             <constraint firstItem="EgI-xd-txP" firstAttribute="top" secondItem="7Zf-Fv-Omq" secondAttribute="bottom" id="xVG-a7-pa4"/>
                         </constraints>
@@ -2361,13 +2371,6 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                 <exclude reference="f0j-f2-Fgq"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="xVG-a7-pa4"/>
-                                <exclude reference="1aF-VF-VIe"/>
-                                <exclude reference="95M-8S-sU1"/>
-                                <exclude reference="qfC-VA-iLc"/>
-                                <exclude reference="D2U-Yf-NMT"/>
-                                <exclude reference="fNp-mN-is9"/>
-                                <exclude reference="pwF-jG-qN2"/>
                                 <exclude reference="4Tk-64-HBm"/>
                                 <exclude reference="F65-dK-g5m"/>
                                 <exclude reference="Fao-I7-dte"/>
@@ -2376,6 +2379,11 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                 <exclude reference="YNS-kI-PEQ"/>
                                 <exclude reference="a9U-k6-cPk"/>
                                 <exclude reference="mhB-6n-L1Y"/>
+                                <exclude reference="18n-1J-mCi"/>
+                                <exclude reference="AtM-02-Ran"/>
+                                <exclude reference="6XP-a5-cGf"/>
+                                <exclude reference="aZJ-eP-B9n"/>
+                                <exclude reference="xVG-a7-pa4"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -2386,13 +2394,6 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                 <include reference="f0j-f2-Fgq"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="xVG-a7-pa4"/>
-                                <include reference="1aF-VF-VIe"/>
-                                <include reference="95M-8S-sU1"/>
-                                <include reference="qfC-VA-iLc"/>
-                                <include reference="D2U-Yf-NMT"/>
-                                <include reference="fNp-mN-is9"/>
-                                <include reference="pwF-jG-qN2"/>
                                 <include reference="4Tk-64-HBm"/>
                                 <include reference="F65-dK-g5m"/>
                                 <include reference="Fao-I7-dte"/>
@@ -2401,16 +2402,25 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                 <include reference="YNS-kI-PEQ"/>
                                 <include reference="a9U-k6-cPk"/>
                                 <include reference="mhB-6n-L1Y"/>
+                                <include reference="18n-1J-mCi"/>
+                                <include reference="AtM-02-Ran"/>
+                                <include reference="6XP-a5-cGf"/>
+                                <include reference="aZJ-eP-B9n"/>
+                                <include reference="xVG-a7-pa4"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 2" id="AMK-BJ-13f">
                         <barButtonItem key="backBarButtonItem" title="Atrás" id="djt-Ef-2cD"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="botonNo" destination="f0j-f2-Fgq" id="UbW-iG-v83"/>
+                        <outlet property="botonSi" destination="5mJ-vQ-ITD" id="eV4-3M-THU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="urZ-cv-mIm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7276.5" y="2446.5"/>
+            <point key="canvasLocation" x="6441" y="2446.5"/>
         </scene>
         <!--Pregunta 3-->
         <scene sceneID="rdf-S8-O62">
@@ -2438,7 +2448,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="RKb-kw-TPC" kind="show" id="H0v-wd-YXd"/>
+                                    <segue destination="e9K-bq-JDM" kind="show" id="yKk-22-He7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p64-1U-ADh">
@@ -2447,7 +2457,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="RKb-kw-TPC" kind="show" id="8h3-EV-6R7"/>
+                                    <segue destination="e9K-bq-JDM" kind="show" id="HIU-Ey-kKL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2455,17 +2465,17 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         <constraints>
                             <constraint firstItem="BSH-Qk-L5v" firstAttribute="leading" secondItem="Vqm-xc-Xz7" secondAttribute="trailing" constant="-320" id="1LC-6Q-9iA"/>
                             <constraint firstAttribute="trailing" secondItem="Vqm-xc-Xz7" secondAttribute="trailing" id="2wW-xl-KNe"/>
+                            <constraint firstItem="p64-1U-ADh" firstAttribute="trailing" secondItem="0CL-zq-B5O" secondAttribute="trailingMargin" id="N28-Lg-vyL"/>
                             <constraint firstItem="Vqm-xc-Xz7" firstAttribute="top" secondItem="BSH-Qk-L5v" secondAttribute="bottom" constant="-207" id="NBO-x9-GdG"/>
-                            <constraint firstItem="xh4-ts-u3O" firstAttribute="leading" secondItem="0CL-zq-B5O" secondAttribute="leadingMargin" constant="20" id="Ora-KO-gst"/>
                             <constraint firstItem="Vqm-xc-Xz7" firstAttribute="leading" secondItem="0CL-zq-B5O" secondAttribute="leading" id="UaH-rN-ODw"/>
+                            <constraint firstItem="xh4-ts-u3O" firstAttribute="top" secondItem="BSH-Qk-L5v" secondAttribute="bottom" constant="151" id="dD3-bQ-n6q"/>
                             <constraint firstItem="BSH-Qk-L5v" firstAttribute="centerX" secondItem="Vqm-xc-Xz7" secondAttribute="centerX" id="f0B-cE-xE2"/>
                             <constraint firstItem="PVJ-qI-qRB" firstAttribute="top" secondItem="Vqm-xc-Xz7" secondAttribute="bottom" id="gke-Rl-mHl"/>
                             <constraint firstItem="BSH-Qk-L5v" firstAttribute="leading" secondItem="Vqm-xc-Xz7" secondAttribute="trailing" constant="-320" id="kGa-qV-InG"/>
+                            <constraint firstItem="xh4-ts-u3O" firstAttribute="leading" secondItem="0CL-zq-B5O" secondAttribute="leadingMargin" id="kQ4-tC-RHV"/>
+                            <constraint firstItem="p64-1U-ADh" firstAttribute="top" secondItem="BSH-Qk-L5v" secondAttribute="bottom" constant="151" id="kwT-Eo-gjX"/>
                             <constraint firstItem="Vqm-xc-Xz7" firstAttribute="top" secondItem="0CL-zq-B5O" secondAttribute="top" id="pZz-LZ-uO8"/>
                             <constraint firstItem="BSH-Qk-L5v" firstAttribute="top" secondItem="9wB-oU-SIL" secondAttribute="bottom" constant="15" id="t6e-Em-57B"/>
-                            <constraint firstItem="p64-1U-ADh" firstAttribute="top" secondItem="BSH-Qk-L5v" secondAttribute="bottom" constant="40" id="t6p-2k-Nud"/>
-                            <constraint firstItem="xh4-ts-u3O" firstAttribute="top" secondItem="BSH-Qk-L5v" secondAttribute="bottom" constant="40" id="wdv-9R-0YI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="p64-1U-ADh" secondAttribute="trailing" constant="20" id="xNS-uZ-AG4"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -2475,19 +2485,19 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                 <exclude reference="p64-1U-ADh"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="gke-Rl-mHl"/>
-                                <exclude reference="t6p-2k-Nud"/>
-                                <exclude reference="xNS-uZ-AG4"/>
-                                <exclude reference="Ora-KO-gst"/>
-                                <exclude reference="wdv-9R-0YI"/>
-                                <exclude reference="1LC-6Q-9iA"/>
-                                <exclude reference="f0B-cE-xE2"/>
-                                <exclude reference="kGa-qV-InG"/>
-                                <exclude reference="t6e-Em-57B"/>
                                 <exclude reference="2wW-xl-KNe"/>
                                 <exclude reference="NBO-x9-GdG"/>
                                 <exclude reference="UaH-rN-ODw"/>
                                 <exclude reference="pZz-LZ-uO8"/>
+                                <exclude reference="1LC-6Q-9iA"/>
+                                <exclude reference="f0B-cE-xE2"/>
+                                <exclude reference="kGa-qV-InG"/>
+                                <exclude reference="t6e-Em-57B"/>
+                                <exclude reference="dD3-bQ-n6q"/>
+                                <exclude reference="kQ4-tC-RHV"/>
+                                <exclude reference="N28-Lg-vyL"/>
+                                <exclude reference="kwT-Eo-gjX"/>
+                                <exclude reference="gke-Rl-mHl"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -2498,29 +2508,33 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                 <include reference="p64-1U-ADh"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="gke-Rl-mHl"/>
-                                <include reference="t6p-2k-Nud"/>
-                                <include reference="xNS-uZ-AG4"/>
-                                <include reference="Ora-KO-gst"/>
-                                <include reference="wdv-9R-0YI"/>
-                                <include reference="1LC-6Q-9iA"/>
-                                <include reference="f0B-cE-xE2"/>
-                                <include reference="kGa-qV-InG"/>
-                                <include reference="t6e-Em-57B"/>
                                 <include reference="2wW-xl-KNe"/>
                                 <include reference="NBO-x9-GdG"/>
                                 <include reference="UaH-rN-ODw"/>
                                 <include reference="pZz-LZ-uO8"/>
+                                <include reference="1LC-6Q-9iA"/>
+                                <include reference="f0B-cE-xE2"/>
+                                <include reference="kGa-qV-InG"/>
+                                <include reference="t6e-Em-57B"/>
+                                <include reference="dD3-bQ-n6q"/>
+                                <include reference="kQ4-tC-RHV"/>
+                                <include reference="N28-Lg-vyL"/>
+                                <include reference="kwT-Eo-gjX"/>
+                                <include reference="gke-Rl-mHl"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 3" id="Pv7-J9-VPt">
                         <barButtonItem key="backBarButtonItem" title="Atrás" id="VqH-Rr-JoN"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="botonNo" destination="p64-1U-ADh" id="rcQ-CZ-XVs"/>
+                        <outlet property="botonSi" destination="xh4-ts-u3O" id="YbS-uM-IbW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="USn-Md-HmA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8908.5" y="2446.5"/>
+            <point key="canvasLocation" x="7344" y="2446.5"/>
         </scene>
         <!--Pregunta 4-->
         <scene sceneID="Fbs-y5-GBd">
@@ -2561,7 +2575,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Srh-cl-xm7" kind="show" id="K3O-sp-SGu"/>
+                                    <segue destination="CzY-aW-UL6" kind="show" id="XBz-tk-Muk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYb-mL-ckV">
@@ -2570,21 +2584,21 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Srh-cl-xm7" kind="show" id="qoz-YD-mAf"/>
+                                    <segue destination="CzY-aW-UL6" kind="show" id="BWk-BQ-Vkl"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="mYb-mL-ckV" secondAttribute="trailing" constant="20" id="2Uu-du-5aN"/>
                             <constraint firstItem="bSW-3q-5ce" firstAttribute="top" secondItem="0cc-9z-ce6" secondAttribute="top" id="2bb-14-4we"/>
                             <constraint firstAttribute="trailingMargin" secondItem="a19-7I-wgk" secondAttribute="trailing" id="8Qw-9O-fZb"/>
-                            <constraint firstAttribute="centerY" secondItem="BVn-Mh-7cp" secondAttribute="centerY" id="A7z-4i-Q2i"/>
-                            <constraint firstAttribute="centerY" secondItem="mYb-mL-ckV" secondAttribute="centerY" id="BXs-jc-EyM"/>
+                            <constraint firstItem="mYb-mL-ckV" firstAttribute="trailing" secondItem="0cc-9z-ce6" secondAttribute="trailingMargin" id="BnO-KM-RwM"/>
                             <constraint firstItem="a19-7I-wgk" firstAttribute="leading" secondItem="0cc-9z-ce6" secondAttribute="leadingMargin" id="FGL-lB-i3n"/>
+                            <constraint firstItem="BVn-Mh-7cp" firstAttribute="leading" secondItem="0cc-9z-ce6" secondAttribute="leadingMargin" id="FXV-OB-BFa"/>
                             <constraint firstItem="a19-7I-wgk" firstAttribute="top" secondItem="tfj-BW-b9u" secondAttribute="bottom" constant="8" id="QIe-vF-ed4"/>
+                            <constraint firstItem="BVn-Mh-7cp" firstAttribute="top" secondItem="a19-7I-wgk" secondAttribute="bottom" constant="157" id="WKh-8N-eUn"/>
                             <constraint firstAttribute="trailing" secondItem="bSW-3q-5ce" secondAttribute="trailing" id="hms-E5-4Y0"/>
-                            <constraint firstItem="BVn-Mh-7cp" firstAttribute="leading" secondItem="0cc-9z-ce6" secondAttribute="leadingMargin" constant="20" id="lpn-8S-JyN"/>
+                            <constraint firstItem="mYb-mL-ckV" firstAttribute="top" secondItem="a19-7I-wgk" secondAttribute="bottom" constant="157" id="pT2-Bf-hlA"/>
                             <constraint firstItem="Pqf-l1-Kcv" firstAttribute="top" secondItem="bSW-3q-5ce" secondAttribute="bottom" id="ypu-iI-OPN"/>
                             <constraint firstItem="bSW-3q-5ce" firstAttribute="leading" secondItem="0cc-9z-ce6" secondAttribute="leading" id="ysb-3c-ub3"/>
                         </constraints>
@@ -2596,17 +2610,17 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                 <exclude reference="mYb-mL-ckV"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="ypu-iI-OPN"/>
-                                <exclude reference="A7z-4i-Q2i"/>
-                                <exclude reference="lpn-8S-JyN"/>
-                                <exclude reference="2Uu-du-5aN"/>
-                                <exclude reference="BXs-jc-EyM"/>
-                                <exclude reference="8Qw-9O-fZb"/>
-                                <exclude reference="FGL-lB-i3n"/>
-                                <exclude reference="QIe-vF-ed4"/>
                                 <exclude reference="2bb-14-4we"/>
                                 <exclude reference="hms-E5-4Y0"/>
                                 <exclude reference="ysb-3c-ub3"/>
+                                <exclude reference="8Qw-9O-fZb"/>
+                                <exclude reference="FGL-lB-i3n"/>
+                                <exclude reference="QIe-vF-ed4"/>
+                                <exclude reference="FXV-OB-BFa"/>
+                                <exclude reference="WKh-8N-eUn"/>
+                                <exclude reference="BnO-KM-RwM"/>
+                                <exclude reference="pT2-Bf-hlA"/>
+                                <exclude reference="ypu-iI-OPN"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -2617,25 +2631,29 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                 <include reference="mYb-mL-ckV"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="ypu-iI-OPN"/>
-                                <include reference="A7z-4i-Q2i"/>
-                                <include reference="lpn-8S-JyN"/>
-                                <include reference="2Uu-du-5aN"/>
-                                <include reference="BXs-jc-EyM"/>
-                                <include reference="8Qw-9O-fZb"/>
-                                <include reference="FGL-lB-i3n"/>
-                                <include reference="QIe-vF-ed4"/>
                                 <include reference="2bb-14-4we"/>
                                 <include reference="hms-E5-4Y0"/>
                                 <include reference="ysb-3c-ub3"/>
+                                <include reference="8Qw-9O-fZb"/>
+                                <include reference="FGL-lB-i3n"/>
+                                <include reference="QIe-vF-ed4"/>
+                                <include reference="FXV-OB-BFa"/>
+                                <include reference="WKh-8N-eUn"/>
+                                <include reference="BnO-KM-RwM"/>
+                                <include reference="pT2-Bf-hlA"/>
+                                <include reference="ypu-iI-OPN"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 4" id="BJc-MK-bV4"/>
+                    <connections>
+                        <outlet property="botonNo" destination="mYb-mL-ckV" id="Kt2-K9-d90"/>
+                        <outlet property="botonSi" destination="BVn-Mh-7cp" id="dvc-f9-IBB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shT-vr-jX5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10623" y="2446.5"/>
+            <point key="canvasLocation" x="8259" y="2441.25"/>
         </scene>
         <!--Pregunta 5-->
         <scene sceneID="2DY-ue-koW">
@@ -2658,7 +2676,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nJd-kt-wfp" kind="show" id="4Le-d4-nkf"/>
+                                    <segue destination="BaW-oR-ng4" kind="show" id="Dqc-hg-LVp"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿ Le ha dejado usted, después de vivir juntos, en el último año?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wn0-Au-zjm">
@@ -2685,13 +2703,15 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nJd-kt-wfp" kind="show" id="Z62-RH-5Vg"/>
+                                    <segue destination="BaW-oR-ng4" kind="show" id="8Rb-uZ-3Lc"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="e4k-3T-tqs" firstAttribute="top" secondItem="ayO-WC-CGc" secondAttribute="top" id="0XJ-wq-TeH"/>
+                            <constraint firstItem="e4k-3T-tqs" firstAttribute="top" secondItem="ayO-WC-CGc" secondAttribute="top" id="0XJ-wq-TeH">
+                                <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                            </constraint>
                             <constraint firstItem="QYA-ID-GLG" firstAttribute="leading" secondItem="eHj-jz-VTy" secondAttribute="leading" id="4Vf-hL-9Rf"/>
                             <constraint firstItem="e4k-3T-tqs" firstAttribute="leading" secondItem="eHj-jz-VTy" secondAttribute="leadingMargin" id="AGk-3j-AqM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Wn0-Au-zjm" secondAttribute="trailing" id="Acz-H4-Ies"/>
@@ -2747,10 +2767,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 5" id="gOI-JU-fyH"/>
+                    <connections>
+                        <outlet property="botonNo" destination="ayO-WC-CGc" id="88b-ul-01K"/>
+                        <outlet property="botonSi" destination="e4k-3T-tqs" id="GxA-Zv-bng"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LF4-06-bSG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12151.5" y="2446.5"/>
+            <point key="canvasLocation" x="9184.5" y="2441.25"/>
         </scene>
         <!--Pregunta 6-->
         <scene sceneID="iJc-qG-hXu">
@@ -2773,7 +2797,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ngn-L8-qV8" kind="show" id="gRs-Tw-2Ru"/>
+                                    <segue destination="YoH-dj-wFI" kind="show" id="KrX-UZ-0pg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auv-tD-BCa">
@@ -2782,7 +2806,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ngn-L8-qV8" kind="show" id="sJG-gN-8D0"/>
+                                    <segue destination="YoH-dj-wFI" kind="show" id="LM5-VQ-2ND"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Está desempleado, sin trabajo actualmente? " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNP-bf-2Vx">
@@ -2862,120 +2886,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 6" id="ezi-9w-4Dq"/>
+                    <connections>
+                        <outlet property="botonNo" destination="Zbv-fh-jIp" id="QtH-re-ZIw"/>
+                        <outlet property="botonSi" destination="auv-tD-BCa" id="53J-98-5NY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OFu-Tw-tex" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13969.5" y="2446.5"/>
-        </scene>
-        <!--¡¡Atención!!-->
-        <scene sceneID="nxJ-Ty-qbi">
-            <objects>
-                <viewController id="9wH-3B-14o" customClass="PeligroViewController" customModule="Violencia_de_ge_nero" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xxh-Ps-zA9"/>
-                        <viewControllerLayoutGuide type="bottom" id="L7l-4H-VNJ"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="3TB-pq-agH">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="cZN-JQ-vHX">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peligro" translatesAutoresizingMaskIntoConstraints="NO" id="3MP-gr-2k2">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Ha respondido afirmativamente a una pregunta de alto riego. Por favor, contacte inmediatamente con la policía." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOj-hg-lo6">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="cZN-JQ-vHX" firstAttribute="leading" secondItem="eOj-hg-lo6" secondAttribute="trailing" constant="-384" id="1lo-Wq-d7M"/>
-                            <constraint firstItem="cZN-JQ-vHX" firstAttribute="leading" secondItem="3TB-pq-agH" secondAttribute="leading" id="4aC-9g-GGC"/>
-                            <constraint firstAttribute="trailing" secondItem="cZN-JQ-vHX" secondAttribute="trailing" id="5vA-gp-xRX"/>
-                            <constraint firstItem="cZN-JQ-vHX" firstAttribute="leading" secondItem="eOj-hg-lo6" secondAttribute="trailing" constant="-384" id="ACr-5N-Kr3"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="eOj-hg-lo6" secondAttribute="trailing" id="BP0-t9-6Sw"/>
-                            <constraint firstItem="cZN-JQ-vHX" firstAttribute="top" secondItem="eOj-hg-lo6" secondAttribute="bottom" constant="-200" id="Juc-LA-Iay">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-440"/>
-                            </constraint>
-                            <constraint firstItem="eOj-hg-lo6" firstAttribute="top" secondItem="xxh-Ps-zA9" secondAttribute="bottom" constant="8" symbolic="YES" id="Sec-7U-txY">
-                                <variation key="heightClass=regular-widthClass=compact" constant="248"/>
-                            </constraint>
-                            <constraint firstItem="cZN-JQ-vHX" firstAttribute="top" secondItem="3TB-pq-agH" secondAttribute="top" id="XW1-Ty-yMf"/>
-                            <constraint firstItem="cZN-JQ-vHX" firstAttribute="top" secondItem="eOj-hg-lo6" secondAttribute="bottom" constant="-200" id="Z47-as-Bfj">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-440"/>
-                            </constraint>
-                            <constraint firstItem="eOj-hg-lo6" firstAttribute="top" secondItem="3MP-gr-2k2" secondAttribute="bottom" constant="64" id="dz9-ZB-0hW"/>
-                            <constraint firstItem="cZN-JQ-vHX" firstAttribute="top" secondItem="3MP-gr-2k2" secondAttribute="bottom" constant="-248" id="iuw-oh-UAi"/>
-                            <constraint firstItem="L7l-4H-VNJ" firstAttribute="top" secondItem="cZN-JQ-vHX" secondAttribute="bottom" id="k68-Qg-QG9"/>
-                            <constraint firstItem="3MP-gr-2k2" firstAttribute="leading" secondItem="cZN-JQ-vHX" secondAttribute="trailing" constant="-288" id="oGe-Bv-Mxk"/>
-                            <constraint firstItem="3MP-gr-2k2" firstAttribute="leading" secondItem="cZN-JQ-vHX" secondAttribute="trailing" constant="-288" id="rWD-bj-szs"/>
-                            <constraint firstAttribute="centerX" secondItem="3MP-gr-2k2" secondAttribute="centerX" id="uOr-54-6AY">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-12"/>
-                            </constraint>
-                            <constraint firstItem="eOj-hg-lo6" firstAttribute="leading" secondItem="3TB-pq-agH" secondAttribute="leadingMargin" id="xy7-Ro-0qq"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="cZN-JQ-vHX"/>
-                                <exclude reference="3MP-gr-2k2"/>
-                                <exclude reference="eOj-hg-lo6"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="k68-Qg-QG9"/>
-                                <exclude reference="oGe-Bv-Mxk"/>
-                                <exclude reference="rWD-bj-szs"/>
-                                <exclude reference="uOr-54-6AY"/>
-                                <exclude reference="1lo-Wq-d7M"/>
-                                <exclude reference="4aC-9g-GGC"/>
-                                <exclude reference="5vA-gp-xRX"/>
-                                <exclude reference="ACr-5N-Kr3"/>
-                                <exclude reference="Juc-LA-Iay"/>
-                                <exclude reference="XW1-Ty-yMf"/>
-                                <exclude reference="Z47-as-Bfj"/>
-                                <exclude reference="iuw-oh-UAi"/>
-                                <exclude reference="BP0-t9-6Sw"/>
-                                <exclude reference="Sec-7U-txY"/>
-                                <exclude reference="dz9-ZB-0hW"/>
-                                <exclude reference="xy7-Ro-0qq"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="cZN-JQ-vHX"/>
-                                <include reference="3MP-gr-2k2"/>
-                                <include reference="eOj-hg-lo6"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="k68-Qg-QG9"/>
-                                <include reference="oGe-Bv-Mxk"/>
-                                <include reference="rWD-bj-szs"/>
-                                <include reference="uOr-54-6AY"/>
-                                <include reference="1lo-Wq-d7M"/>
-                                <include reference="4aC-9g-GGC"/>
-                                <include reference="5vA-gp-xRX"/>
-                                <include reference="ACr-5N-Kr3"/>
-                                <include reference="Juc-LA-Iay"/>
-                                <include reference="XW1-Ty-yMf"/>
-                                <include reference="Z47-as-Bfj"/>
-                                <exclude reference="iuw-oh-UAi"/>
-                                <include reference="BP0-t9-6Sw"/>
-                                <include reference="Sec-7U-txY"/>
-                                <include reference="dz9-ZB-0hW"/>
-                                <include reference="xy7-Ro-0qq"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <navigationItem key="navigationItem" title="¡¡Atención!!" id="auQ-M4-f1Y">
-                        <barButtonItem key="backBarButtonItem" title="Atrás" id="8bQ-3t-MGW"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ei3-h1-5XW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="8422.5" y="1462.5"/>
+            <point key="canvasLocation" x="10113" y="2451.75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C1Q-LF-vZ3">
@@ -3031,60 +2949,6 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
             </objects>
             <point key="canvasLocation" x="4900.5" y="2446.5"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="qLm-aZ-HkR">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3NF-wr-kZU" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qaG-4B-Ubg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="9wH-3B-14o" kind="relationship" relationship="rootViewController" id="PLL-IM-Y61"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qZP-Ub-hrd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7408.5" y="1462.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="p65-lJ-YRR">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iCr-if-CY3" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vFf-7X-cDi">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="4Ed-Gf-l9e" kind="relationship" relationship="rootViewController" id="6K9-46-ojP"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kN6-g2-WQw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6358.5" y="2446.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="xPn-r9-k89">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TLq-5C-lu1" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BP3-6u-pp6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="dkm-LX-Hpx" kind="relationship" relationship="rootViewController" id="zuy-OL-sMa"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Byr-EA-VQE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7990.5" y="2446.5"/>
-        </scene>
         <!--Pregunta 8-->
         <scene sceneID="5ko-xY-Hln">
             <objects>
@@ -3106,7 +2970,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="n3d-Vx-x3x" kind="show" id="GvJ-e2-fQQ"/>
+                                    <segue destination="WFq-Vh-LQP" kind="show" id="FMM-0G-iPv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byq-Gg-un3">
@@ -3115,7 +2979,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="n3d-Vx-x3x" kind="show" id="IX3-c5-sba"/>
+                                    <segue destination="WFq-Vh-LQP" kind="show" id="vtl-p0-GKS"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Le ha amenazado con un cuchillo alguna vez? " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFe-d0-6yP">
@@ -3195,10 +3059,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 8" id="XH2-wg-tsZ"/>
+                    <connections>
+                        <outlet property="botonNo" destination="Byq-Gg-un3" id="lPB-kZ-r4z"/>
+                        <outlet property="botonSi" destination="PDS-B5-dHj" id="039-mb-U8g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJC-ms-ygJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7708.5" y="3214.5"/>
+            <point key="canvasLocation" x="5644.5" y="3166.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nWc-34-NDj">
@@ -3254,24 +3122,6 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
             </objects>
             <point key="canvasLocation" x="3184.5" y="574.5"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="e6v-qD-9hn">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RKb-kw-TPC" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eA6-3X-qQW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="e9K-bq-JDM" kind="relationship" relationship="rootViewController" id="iH0-f2-98C"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wqa-6F-Xrz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="9783" y="2446.5"/>
-        </scene>
         <!--Pregunta 10-->
         <scene sceneID="xvF-vg-jC1">
             <objects>
@@ -3293,7 +3143,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hvv-U9-JzS" kind="show" id="lSQ-xr-XIs"/>
+                                    <segue destination="Ie4-us-a8m" kind="show" id="Hz8-gd-E70"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLM-jp-o3T">
@@ -3302,7 +3152,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hvv-U9-JzS" kind="show" id="8mk-vI-LHB"/>
+                                    <segue destination="Ie4-us-a8m" kind="show" id="6S5-1d-e5U"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Ha sido detenido por violencia de género? " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arE-ns-KKJ">
@@ -3382,10 +3232,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 10" id="gdq-qC-OXE"/>
+                    <connections>
+                        <outlet property="botonNo" destination="KLM-jp-o3T" id="Alu-Bj-DMJ"/>
+                        <outlet property="botonSi" destination="Slo-OP-xCC" id="3Ys-yH-Y1J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YNY-9B-F2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11635.5" y="3214.5"/>
+            <point key="canvasLocation" x="7329" y="3178.5"/>
         </scene>
         <!--Pregunta 16-->
         <scene sceneID="ehA-zb-F88">
@@ -3408,7 +3262,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="afN-ij-Don" kind="show" id="ZAK-sw-9Dh"/>
+                                    <segue destination="aVH-YV-kKL" kind="show" id="Wax-Gy-nNI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEV-2e-O5X">
@@ -3417,7 +3271,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="afN-ij-Don" kind="show" id="ohV-00-UBP"/>
+                                    <segue destination="aVH-YV-kKL" kind="show" id="wJ0-vt-c2n"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Le controla él la mayoría de sus actividades diarias?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpo-WZ-Mtv">
@@ -3497,10 +3351,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 16" id="4y4-af-At8"/>
+                    <connections>
+                        <outlet property="botonNo" destination="aEV-2e-O5X" id="KV4-R8-ZbN"/>
+                        <outlet property="botonSi" destination="X31-za-I7c" id="D5J-60-Ztb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1WR-Wm-fFu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11575.5" y="4054.5"/>
+            <point key="canvasLocation" x="6615" y="3898.5"/>
         </scene>
         <!--Pregunta 22-->
         <scene sceneID="Mf1-90-Y8Z">
@@ -3523,7 +3381,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="whJ-zC-e65" kind="show" id="nv9-4j-Njj"/>
+                                    <segue destination="gbv-WC-051" kind="show" id="Jty-fk-jJo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0W-SW-HKe">
@@ -3532,7 +3390,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="whJ-zC-e65" kind="show" id="y1g-5P-Rg7"/>
+                                    <segue destination="gbv-WC-051" kind="show" id="puz-l1-q4J"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Cree usted que es capaz de matarla?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ss-X3-1ph">
@@ -3612,10 +3470,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 22" id="Al5-sh-OB8"/>
+                    <connections>
+                        <outlet property="botonNo" destination="w0W-SW-HKe" id="dOB-wf-TKe"/>
+                        <outlet property="botonSi" destination="6um-jX-rMh" id="Ghj-nd-HRp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dDx-zp-BVi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11599.5" y="4822.5"/>
+            <point key="canvasLocation" x="5568" y="4614"/>
         </scene>
         <!--Pregunta 9-->
         <scene sceneID="BJi-Fw-Jek">
@@ -3638,7 +3500,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="VMc-pg-Gwa" kind="show" id="RJw-tz-NEI"/>
+                                    <segue destination="gsj-bb-TlO" kind="show" id="5Xp-2W-RmV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zye-mo-yRw">
@@ -3647,7 +3509,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="VMc-pg-Gwa" kind="show" id="GxX-Le-FwL"/>
+                                    <segue destination="gsj-bb-TlO" kind="show" id="Fpy-9t-1cY"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Le ha amenazado de muerte?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k86-Yj-6PB">
@@ -3727,10 +3589,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 9" id="I97-fP-B7r"/>
+                    <connections>
+                        <outlet property="botonNo" destination="Zye-mo-yRw" id="Rwi-fc-XtG"/>
+                        <outlet property="botonSi" destination="OeG-8c-kly" id="UPR-l1-DQW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cyi-by-Fcm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9619.5" y="3232.5"/>
+            <point key="canvasLocation" x="6456" y="3178.5"/>
         </scene>
         <!--Pregunta 15-->
         <scene sceneID="egR-Vt-uAt">
@@ -3753,7 +3619,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="VHu-g3-JLU" kind="show" id="I3Q-J8-cn1"/>
+                                    <segue destination="i1h-zQ-JKj" kind="show" id="kIr-Oe-0Xm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgR-4M-zp0">
@@ -3762,7 +3628,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="VHu-g3-JLU" kind="show" id="hjg-ev-OMm"/>
+                                    <segue destination="i1h-zQ-JKj" kind="show" id="J85-I3-aki"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Consume alcohol?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwB-gy-IKb">
@@ -3842,10 +3708,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 15" id="7BQ-DP-3jO"/>
+                    <connections>
+                        <outlet property="botonNo" destination="SgR-4M-zp0" id="fQi-Jm-zs4"/>
+                        <outlet property="botonSi" destination="FYj-d1-aQz" id="wNw-zR-Vr2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m9a-EO-ec6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9619.5" y="4060.5"/>
+            <point key="canvasLocation" x="5668.5" y="3892.5"/>
         </scene>
         <!--Pregunta 21-->
         <scene sceneID="a7k-z8-auu">
@@ -3868,7 +3738,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Lil-XZ-RiL" kind="show" id="U4X-mn-rQ1"/>
+                                    <segue destination="aQb-8n-y3T" kind="show" id="Tpn-Fv-B2Y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HG4-X9-DL3">
@@ -3877,7 +3747,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Lil-XZ-RiL" kind="show" id="elb-C5-hhE"/>
+                                    <segue destination="aQb-8n-y3T" kind="show" id="Pc2-h0-gC9"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Amenaza  con hacerle daño a sus hijos?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EK4-kY-J64">
@@ -3957,28 +3827,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 21" id="tXB-JL-PdF"/>
+                    <connections>
+                        <outlet property="botonNo" destination="HG4-X9-DL3" id="E3r-Fr-c38"/>
+                        <outlet property="botonSi" destination="MDR-lx-LIV" id="1Y5-Du-fds"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S33-21-aP6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9637.5" y="4816.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="DRk-LW-Edn">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Srh-cl-xm7" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tDU-Ec-Hgy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="CzY-aW-UL6" kind="relationship" relationship="rootViewController" id="Hsm-do-J6p"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1xD-RB-Bx9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="11406" y="2446.5"/>
+            <point key="canvasLocation" x="11316" y="3930"/>
         </scene>
         <!--Pregunta 11-->
         <scene sceneID="zsY-jO-0rs">
@@ -4001,7 +3857,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="GVu-6I-Yus" kind="show" id="hNz-07-hYg"/>
+                                    <segue destination="8PX-Ge-WzW" kind="show" id="ggZ-MZ-cTy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svS-6C-yQQ">
@@ -4010,7 +3866,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="GVu-6I-Yus" kind="show" id="6F3-so-qbB"/>
+                                    <segue destination="8PX-Ge-WzW" kind="show" id="5S6-Kf-dwz"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Ha sido detenido por algún otro motivo? " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFp-Im-THZ">
@@ -4090,10 +3946,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 11" id="5Co-gu-aW9"/>
+                    <connections>
+                        <outlet property="botonNo" destination="svS-6C-yQQ" id="O88-Mi-KdZ"/>
+                        <outlet property="botonSi" destination="veI-kW-lk1" id="RlH-4B-SCn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZH-7r-B0p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13555.5" y="3214.5"/>
+            <point key="canvasLocation" x="8251.5" y="3184.5"/>
         </scene>
         <!--Pregunta 17-->
         <scene sceneID="bYE-25-oa3">
@@ -4116,7 +3976,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="c5E-fU-HXi" kind="show" id="h2J-ed-6HE"/>
+                                    <segue destination="8OC-0M-be0" kind="show" id="Li2-qn-z2g"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZi-tr-x8X">
@@ -4125,7 +3985,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="c5E-fU-HXi" kind="show" id="DQ4-Nj-B7W"/>
+                                    <segue destination="8OC-0M-be0" kind="show" id="bof-v9-wj2"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Es celoso con usted?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DVn-pB-Noe">
@@ -4205,10 +4065,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 17" id="3Nl-N4-tvp"/>
+                    <connections>
+                        <outlet property="botonNo" destination="mZi-tr-x8X" id="Eb7-q0-1KW"/>
+                        <outlet property="botonSi" destination="BkY-P6-Y3w" id="MBL-34-hsX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A87-5F-O37" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13510.5" y="4060.5"/>
+            <point key="canvasLocation" x="7654.5" y="3904.5"/>
         </scene>
         <!--Pregunta 23-->
         <scene sceneID="SOT-Yj-TnD">
@@ -4231,7 +4095,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="c3V-Zx-7HT" kind="show" id="mhQ-yi-mpz"/>
+                                    <segue destination="izC-G1-uFk" kind="show" id="8Yb-RT-GY7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NgI-RB-81G">
@@ -4240,7 +4104,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="c3V-Zx-7HT" kind="show" id="nfa-iW-DYW"/>
+                                    <segue destination="izC-G1-uFk" kind="show" id="0TU-8u-cx9"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QkD-9p-THr">
@@ -4321,10 +4185,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 23" id="yCd-WK-vER"/>
+                    <connections>
+                        <outlet property="botonNo" destination="NgI-RB-81G" id="tKT-ON-rHO"/>
+                        <outlet property="botonSi" destination="Bmw-Md-1f9" id="NxI-Ph-qDy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tlN-zZ-GxW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="13525.5" y="4828.5"/>
+            <point key="canvasLocation" x="6688.5" y="4602"/>
         </scene>
         <!--Pregunta 18-->
         <scene sceneID="HEW-E4-H8m">
@@ -4347,7 +4215,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="XPm-6X-zAo" kind="show" id="ytL-XV-0V6"/>
+                                    <segue destination="I2h-ef-w2c" kind="show" id="qNG-88-5nP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67I-Hx-QVn">
@@ -4356,7 +4224,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="XPm-6X-zAo" kind="show" id="g1V-0c-4RU"/>
+                                    <segue destination="I2h-ef-w2c" kind="show" id="g4F-SX-Zcq"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Se comporta normalmente de manera violenta?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1u7-PN-Jdo">
@@ -4436,10 +4304,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 18" id="J4G-Uy-YkD"/>
+                    <connections>
+                        <outlet property="botonNo" destination="67I-Hx-QVn" id="Gp6-Fl-Q10"/>
+                        <outlet property="botonSi" destination="HQD-qy-KEP" id="8jj-eC-S6Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qRJ-6f-Jlb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15535.5" y="4066.5"/>
+            <point key="canvasLocation" x="8689.5" y="3916.5"/>
         </scene>
         <!--Pregunta 24-->
         <scene sceneID="GQV-T7-ejL">
@@ -4462,7 +4334,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QEy-wr-TpH" kind="show" id="lAZ-0a-I3x"/>
+                                    <segue destination="WZ9-PE-lvP" kind="show" id="OWt-XN-8Kc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uPN-Db-KG3">
@@ -4471,7 +4343,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="QEy-wr-TpH" kind="show" id="up7-Ul-f9R"/>
+                                    <segue destination="WZ9-PE-lvP" kind="show" id="0UK-Qe-69g"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Alguna vez ha amenazado usted con suicidarse o lo ha intentado? " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Np-hk-HTo">
@@ -4551,10 +4423,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 24" id="EXj-k3-Hec"/>
+                    <connections>
+                        <outlet property="botonNo" destination="uPN-Db-KG3" id="vCz-6g-8m8"/>
+                        <outlet property="botonSi" destination="YrK-fN-St2" id="J4y-ju-78P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TID-mH-G3Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15577.5" y="4870.5"/>
+            <point key="canvasLocation" x="7825.5" y="4614"/>
         </scene>
         <!--Resultado del test-->
         <scene sceneID="Zq7-i2-BKV">
@@ -4571,7 +4447,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="ZhY-Od-tNH">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Resultado: Null" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojF-5X-7i4">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Resultado:" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojF-5X-7i4">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="49j-QD-l0c"/>
@@ -4589,74 +4465,114 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     </mask>
                                 </variation>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puntuación" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjZ-bM-ndw">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nivel de riesgo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Qm-QG-nay">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXd-5V-n0e">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Volver al menu principal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="QDD-C1-f1z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ZhY-Od-tNH" firstAttribute="leading" secondItem="N4U-ni-Iyp" secondAttribute="leading" id="26I-yk-tab"/>
+                            <constraint firstItem="fjZ-bM-ndw" firstAttribute="leading" secondItem="N4U-ni-Iyp" secondAttribute="leadingMargin" constant="66" id="DTG-AR-pzv"/>
+                            <constraint firstItem="fXd-5V-n0e" firstAttribute="top" secondItem="4Qm-QG-nay" secondAttribute="bottom" constant="65" id="Jn1-ea-SeB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fjZ-bM-ndw" secondAttribute="trailing" constant="60" id="PCJ-JA-9RC"/>
+                            <constraint firstItem="fjZ-bM-ndw" firstAttribute="top" secondItem="RmH-Gh-CdJ" secondAttribute="bottom" constant="87" id="SG5-O1-ate"/>
+                            <constraint firstItem="ZhY-Od-tNH" firstAttribute="leading" secondItem="fXd-5V-n0e" secondAttribute="trailing" constant="-246" id="WEr-ts-etM"/>
                             <constraint firstItem="Oim-Ru-aaT" firstAttribute="top" secondItem="ZhY-Od-tNH" secondAttribute="bottom" id="Yqh-DE-XhJ"/>
+                            <constraint firstItem="4Qm-QG-nay" firstAttribute="top" secondItem="fjZ-bM-ndw" secondAttribute="bottom" constant="64" id="fgR-4M-7Ro">
+                                <variation key="heightClass=regular-widthClass=compact" constant="62"/>
+                            </constraint>
                             <constraint firstItem="ojF-5X-7i4" firstAttribute="centerY" secondItem="ZhY-Od-tNH" secondAttribute="centerY" id="gHm-bE-fD3"/>
                             <constraint firstItem="ZhY-Od-tNH" firstAttribute="top" secondItem="N4U-ni-Iyp" secondAttribute="top" id="iID-BI-zat"/>
                             <constraint firstItem="ojF-5X-7i4" firstAttribute="leading" secondItem="N4U-ni-Iyp" secondAttribute="leadingMargin" id="lHq-Fs-RcZ"/>
+                            <constraint firstItem="ZhY-Od-tNH" firstAttribute="leading" secondItem="4Qm-QG-nay" secondAttribute="trailing" constant="-124" id="lUu-me-Tng">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-196"/>
+                            </constraint>
                             <constraint firstItem="ojF-5X-7i4" firstAttribute="leading" secondItem="N4U-ni-Iyp" secondAttribute="leadingMargin" id="nH4-uG-VRL"/>
-                            <constraint firstItem="ojF-5X-7i4" firstAttribute="top" secondItem="RmH-Gh-CdJ" secondAttribute="bottom" constant="8" id="t8I-kK-toA"/>
+                            <constraint firstItem="ojF-5X-7i4" firstAttribute="top" secondItem="RmH-Gh-CdJ" secondAttribute="bottom" constant="8" id="t8I-kK-toA">
+                                <variation key="heightClass=regular-widthClass=compact" constant="52"/>
+                            </constraint>
                             <constraint firstAttribute="trailing" secondItem="ZhY-Od-tNH" secondAttribute="trailing" id="yVO-L1-GoP"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="ZhY-Od-tNH"/>
                                 <exclude reference="ojF-5X-7i4"/>
+                                <exclude reference="fjZ-bM-ndw"/>
+                                <exclude reference="4Qm-QG-nay"/>
+                                <exclude reference="fXd-5V-n0e"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Yqh-DE-XhJ"/>
                                 <exclude reference="26I-yk-tab"/>
+                                <exclude reference="WEr-ts-etM"/>
                                 <exclude reference="iID-BI-zat"/>
+                                <exclude reference="lUu-me-Tng"/>
                                 <exclude reference="yVO-L1-GoP"/>
                                 <exclude reference="gHm-bE-fD3"/>
                                 <exclude reference="lHq-Fs-RcZ"/>
                                 <exclude reference="nH4-uG-VRL"/>
                                 <exclude reference="t8I-kK-toA"/>
+                                <exclude reference="DTG-AR-pzv"/>
+                                <exclude reference="PCJ-JA-9RC"/>
+                                <exclude reference="SG5-O1-ate"/>
+                                <exclude reference="fgR-4M-7Ro"/>
+                                <exclude reference="Jn1-ea-SeB"/>
+                                <exclude reference="Yqh-DE-XhJ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="ZhY-Od-tNH"/>
                                 <include reference="ojF-5X-7i4"/>
+                                <include reference="fjZ-bM-ndw"/>
+                                <include reference="4Qm-QG-nay"/>
+                                <include reference="fXd-5V-n0e"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Yqh-DE-XhJ"/>
                                 <include reference="26I-yk-tab"/>
+                                <include reference="WEr-ts-etM"/>
                                 <include reference="iID-BI-zat"/>
+                                <include reference="lUu-me-Tng"/>
                                 <include reference="yVO-L1-GoP"/>
                                 <include reference="gHm-bE-fD3"/>
                                 <include reference="lHq-Fs-RcZ"/>
                                 <include reference="nH4-uG-VRL"/>
                                 <include reference="t8I-kK-toA"/>
+                                <include reference="DTG-AR-pzv"/>
+                                <include reference="PCJ-JA-9RC"/>
+                                <include reference="SG5-O1-ate"/>
+                                <include reference="fgR-4M-7Ro"/>
+                                <include reference="Jn1-ea-SeB"/>
+                                <include reference="Yqh-DE-XhJ"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Resultado del test" id="glI-Xv-SYE"/>
+                    <connections>
+                        <outlet property="labelNivel" destination="4Qm-QG-nay" id="Gyp-rd-Jwa"/>
+                        <outlet property="labelResultado" destination="fjZ-bM-ndw" id="Z2J-85-psm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cFw-SC-dYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17208" y="5102.25"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="b1D-zJ-gfc">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nJd-kt-wfp" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PsX-AM-hOt">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BaW-oR-ng4" kind="relationship" relationship="rootViewController" id="Flu-ee-FLx"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5We-yD-TqL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="13051.5" y="2446.5"/>
+            <point key="canvasLocation" x="1329" y="2347.5"/>
         </scene>
         <!--Pregunta 12-->
         <scene sceneID="hYa-h8-42P">
@@ -4679,7 +4595,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xaq-JF-Lkm" kind="show" id="sPP-iv-dAk"/>
+                                    <segue destination="piW-d6-mkj" kind="show" id="OZC-7c-s8L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUW-7b-IOZ">
@@ -4688,7 +4604,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xaq-JF-Lkm" kind="show" id="lkY-a5-RRD"/>
+                                    <segue destination="piW-d6-mkj" kind="show" id="p4o-ar-7Gp"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="¿Le ha forzado a mantener relaciones sexuales cuando usted no lo deseaba?" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXt-Kj-IFb">
@@ -4768,352 +4684,14 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Pregunta 12" id="oKI-vE-e6d"/>
+                    <connections>
+                        <outlet property="botonNo" destination="NUW-7b-IOZ" id="mGU-PG-Kma"/>
+                        <outlet property="botonSi" destination="MUV-nA-u6R" id="P7Y-ZM-HxP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VAj-5V-rzu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15577.5" y="3214.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="602-h3-B4y">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ngn-L8-qV8" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Oaw-O1-NIS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="YoH-dj-wFI" kind="relationship" relationship="rootViewController" id="3Hz-A4-LVd"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KTm-wZ-Ybf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="14728.5" y="2458.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="U7P-gh-7A8">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JF0-Nr-2BP" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vCb-Vr-AdT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="FmV-Eq-LzY" kind="relationship" relationship="rootViewController" id="Tvb-0W-YsN"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y39-12-yfW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6931.5" y="3208.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Oel-qh-oL0">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="n3d-Vx-x3x" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hPL-jP-Rnh">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="WFq-Vh-LQP" kind="relationship" relationship="rootViewController" id="VJa-A1-VQl"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Jq-EE-H87" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="8785.5" y="3226.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="tQ8-Vm-Qnq">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VMc-pg-Gwa" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Nz-Vs-uzH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="gsj-bb-TlO" kind="relationship" relationship="rootViewController" id="h4x-cb-wXe"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vfy-Gk-qlM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="10717.5" y="3214.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="S4T-th-7lQ">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hvv-U9-JzS" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7fG-tM-m1j">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Ie4-us-a8m" kind="relationship" relationship="rootViewController" id="mAS-oW-Jr5"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F0e-J5-E6w" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="12637.5" y="3214.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="quj-Sa-FPh">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GVu-6I-Yus" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pPt-bR-HMW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="8PX-Ge-WzW" kind="relationship" relationship="rootViewController" id="rq8-Sy-s14"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gZh-vA-0Jt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="14659.5" y="3214.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="1WQ-aM-muI">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xaq-JF-Lkm" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qdZ-zZ-FOg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="piW-d6-mkj" kind="relationship" relationship="rootViewController" id="8LZ-jU-vpP"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tJB-Lk-gpv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="16327.5" y="3388.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="tGX-J2-yiv">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W2w-73-rEk" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hzI-tK-K4D">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="gww-Zi-dPw" kind="relationship" relationship="rootViewController" id="Cf4-xE-qaz"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dfV-Ja-ywl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6790.5" y="4048.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="ape-W9-Mke">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GyC-Rr-V90" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ghn-FA-vxO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="fEn-xw-Bcv" kind="relationship" relationship="rootViewController" id="TcY-NQ-uA7"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Sl-6g-dzy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="8701.5" y="4060.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="e8W-bU-ghr">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VHu-g3-JLU" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ylI-ZR-Otj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="i1h-zQ-JKj" kind="relationship" relationship="rootViewController" id="9nA-pY-pnP"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NJo-Zm-ppc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="10657.5" y="4054.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="cNr-RG-3Af">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="afN-ij-Don" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="G1d-uM-LvD">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="aVH-YV-kKL" kind="relationship" relationship="rootViewController" id="aB1-cU-JxR"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iyn-Iu-mfy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="12592.5" y="4060.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="smW-cS-O38">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="c5E-fU-HXi" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="y5l-A1-BD1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="8OC-0M-be0" kind="relationship" relationship="rootViewController" id="d5A-9X-DeO"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="M3O-zI-Col" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="14617.5" y="4066.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="a9v-k0-tdu">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XPm-6X-zAo" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="M4J-b2-B9m">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="I2h-ef-w2c" kind="relationship" relationship="rootViewController" id="1Wo-B9-cfo"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xrj-2W-kX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="16387.5" y="4378.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="TgM-k8-D2T">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hkw-b0-DV7" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Oaf-NW-sil">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Kq9-3h-kmV" kind="relationship" relationship="rootViewController" id="sTl-JV-zFf"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8Zw-Au-fNJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6733.5" y="4798.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="M99-Qh-Ip3">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hsc-yQ-22F" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="udM-qj-6Qg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="2xa-Jk-rLb" kind="relationship" relationship="rootViewController" id="hrC-SH-xdQ"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sq0-5h-Mtg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="8719.5" y="4816.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="9ef-bg-uBB">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lil-XZ-RiL" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jsh-Kc-Nli">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="aQb-8n-y3T" kind="relationship" relationship="rootViewController" id="2yM-MB-gbT"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2ui-vq-SrC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="10681.5" y="4822.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="sxl-4f-1Nl">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="whJ-zC-e65" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BZF-DT-UvY">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="gbv-WC-051" kind="relationship" relationship="rootViewController" id="7un-kr-cxM"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FBc-3l-Nmd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="12607.5" y="4828.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Ezj-la-wQu">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="c3V-Zx-7HT" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bod-4s-euO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="izC-G1-uFk" kind="relationship" relationship="rootViewController" id="dPU-Rb-Lbc"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wYW-Gd-TEW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="14659.5" y="4870.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="6ND-aj-t9Y">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QEy-wr-TpH" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AFU-Fl-R4c">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="WZ9-PE-lvP" kind="relationship" relationship="rootViewController" id="GJK-kw-DZl"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="J57-gW-p2c" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="16290" y="5102.25"/>
+            <point key="canvasLocation" x="9174" y="3178.5"/>
         </scene>
     </scenes>
     <resources>
@@ -5135,33 +4713,34 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
         <image name="BotonRosaRasgos" width="270" height="63"/>
         <image name="BotonRosaServiciosEspecializados" width="270" height="63"/>
         <image name="BotonRosaTest" width="270" height="63"/>
-        <image name="Peligro" width="200" height="166"/>
         <image name="ojos" width="300" height="108"/>
         <image name="pinkButtonQueEs" width="270" height="63"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lSQ-xr-XIs"/>
-        <segue reference="RJw-tz-NEI"/>
-        <segue reference="IX3-c5-sba"/>
-        <segue reference="Ihi-mu-YCt"/>
-        <segue reference="sJG-gN-8D0"/>
-        <segue reference="Z62-RH-5Vg"/>
-        <segue reference="qoz-YD-mAf"/>
-        <segue reference="H0v-wd-YXd"/>
-        <segue reference="aON-FO-TRC"/>
-        <segue reference="hNz-07-hYg"/>
-        <segue reference="sPP-iv-dAk"/>
-        <segue reference="PYE-dx-Ofs"/>
-        <segue reference="HYQ-IL-cUW"/>
-        <segue reference="hjg-ev-OMm"/>
-        <segue reference="ohV-00-UBP"/>
-        <segue reference="h2J-ed-6HE"/>
-        <segue reference="ytL-XV-0V6"/>
-        <segue reference="jRs-3L-duE"/>
-        <segue reference="iy5-QQ-n7f"/>
-        <segue reference="elb-C5-hhE"/>
-        <segue reference="y1g-5P-Rg7"/>
-        <segue reference="nfa-iW-DYW"/>
-        <segue reference="lAZ-0a-I3x"/>
+        <segue reference="QDD-C1-f1z"/>
+        <segue reference="OWt-XN-8Kc"/>
+        <segue reference="0TU-8u-cx9"/>
+        <segue reference="puz-l1-q4J"/>
+        <segue reference="Pc2-h0-gC9"/>
+        <segue reference="i5r-gA-ykj"/>
+        <segue reference="5zm-af-CwR"/>
+        <segue reference="qNG-88-5nP"/>
+        <segue reference="bof-v9-wj2"/>
+        <segue reference="wJ0-vt-c2n"/>
+        <segue reference="kIr-Oe-0Xm"/>
+        <segue reference="b0X-xm-B78"/>
+        <segue reference="Khn-ac-7ZX"/>
+        <segue reference="p4o-ar-7Gp"/>
+        <segue reference="ggZ-MZ-cTy"/>
+        <segue reference="Hz8-gd-E70"/>
+        <segue reference="Fpy-9t-1cY"/>
+        <segue reference="vtl-p0-GKS"/>
+        <segue reference="n4D-5f-Gwe"/>
+        <segue reference="KrX-UZ-0pg"/>
+        <segue reference="Dqc-hg-LVp"/>
+        <segue reference="BWk-BQ-Vkl"/>
+        <segue reference="yKk-22-He7"/>
+        <segue reference="nU6-g7-YCe"/>
+        <segue reference="RQV-f5-F6c"/>
     </inferredMetricsTieBreakers>
 </document>

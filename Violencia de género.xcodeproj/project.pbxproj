@@ -52,6 +52,7 @@
 		4957AEB51B31AD84002223E2 /* Pregunta23ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEB41B31AD84002223E2 /* Pregunta23ViewController.swift */; };
 		4957AEB71B31AD92002223E2 /* Pregunta24ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEB61B31AD92002223E2 /* Pregunta24ViewController.swift */; };
 		4957AEB91B31E6AA002223E2 /* ResultadoTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEB81B31E6AA002223E2 /* ResultadoTestViewController.swift */; };
+		49B1E7011B3F2BA500676566 /* BorrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E7001B3F2BA500676566 /* BorrameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		4957AEB41B31AD84002223E2 /* Pregunta23ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta23ViewController.swift; sourceTree = "<group>"; };
 		4957AEB61B31AD92002223E2 /* Pregunta24ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta24ViewController.swift; sourceTree = "<group>"; };
 		4957AEB81B31E6AA002223E2 /* ResultadoTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultadoTestViewController.swift; sourceTree = "<group>"; };
+		49B1E7001B3F2BA500676566 /* BorrameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorrameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				493476D01B15232200379C73 /* ViewController.swift */,
 				493476D21B15232200379C73 /* Main.storyboard */,
+				49B1E7001B3F2BA500676566 /* BorrameViewController.swift */,
 				4957AEB81B31E6AA002223E2 /* ResultadoTestViewController.swift */,
 				4957AE941B31ACA2002223E2 /* Pregunta7ViewController.swift */,
 				4957AE961B31ACAE002223E2 /* Pregunta8ViewController.swift */,
@@ -345,6 +348,7 @@
 				4957AE811B28F617002223E2 /* Pregunta2ViewController.swift in Sources */,
 				4957AE911B31AB18002223E2 /* Pregunta5ViewController.swift in Sources */,
 				493476F11B15272E00379C73 /* DefinicionViewController.swift in Sources */,
+				49B1E7011B3F2BA500676566 /* BorrameViewController.swift in Sources */,
 				4957AE8D1B31A491002223E2 /* MSPViewController.swift in Sources */,
 				493476D11B15232200379C73 /* ViewController.swift in Sources */,
 				4957AEB31B31AD75002223E2 /* Pregunta22ViewController.swift in Sources */,

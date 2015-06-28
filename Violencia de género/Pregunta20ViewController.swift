@@ -10,6 +10,15 @@ import UIKit
 
 class Pregunta20ViewController: UIViewController {
 
+    //Variables que guardan la puntuación a cada respuesta
+    var notaSi : Int = 1
+    var notaNo : Int = 0
+    var pos : Int = 1
+    var miVector = [Int] (count: 24, repeatedValue: 0)
+    
+    @IBOutlet weak var botonSi: UIButton!
+    @IBOutlet weak var botonNo: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +30,23 @@ class Pregunta20ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        var DestViewController : Pregunta21ViewController = segue.destinationViewController as! Pregunta21ViewController
+        
+        //Actualizamos el vector y la posición en el siguiente viewcontroller
+        DestViewController.miVector = miVector
+        DestViewController.pos = pos + 1
+        
+        //Lo siguiente determina qué ocurre dependiendo de que boton se pulse
+        if botonSi === sender {
+            DestViewController.miVector[pos-1] = notaSi
+        }
+        if botonNo === sender {
+            DestViewController.miVector[pos-1] = notaNo
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -12,7 +12,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //Prueba para quitar el boton "atras" cuando se viene desde otra pantalla
+        self.navigationItem.hidesBackButton = true;
     }
 
     override func didReceiveMemoryWarning() {
