@@ -53,6 +53,11 @@
 		4957AEB71B31AD92002223E2 /* Pregunta24ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEB61B31AD92002223E2 /* Pregunta24ViewController.swift */; };
 		4957AEB91B31E6AA002223E2 /* ResultadoTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4957AEB81B31E6AA002223E2 /* ResultadoTestViewController.swift */; };
 		49B1E7011B3F2BA500676566 /* BorrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E7001B3F2BA500676566 /* BorrameViewController.swift */; };
+		49B1E7031B40667200676566 /* medida1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E7021B40667200676566 /* medida1ViewController.swift */; };
+		49B1E7051B40693E00676566 /* medida2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E7041B40693E00676566 /* medida2ViewController.swift */; };
+		49B1E7091B40704900676566 /* medida3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E7081B40704900676566 /* medida3ViewController.swift */; };
+		49B1E70B1B407D3A00676566 /* medida4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E70A1B407D3A00676566 /* medida4ViewController.swift */; };
+		49B1E70D1B40915E00676566 /* rssTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E70C1B40915E00676566 /* rssTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +121,11 @@
 		4957AEB61B31AD92002223E2 /* Pregunta24ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pregunta24ViewController.swift; sourceTree = "<group>"; };
 		4957AEB81B31E6AA002223E2 /* ResultadoTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultadoTestViewController.swift; sourceTree = "<group>"; };
 		49B1E7001B3F2BA500676566 /* BorrameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorrameViewController.swift; sourceTree = "<group>"; };
+		49B1E7021B40667200676566 /* medida1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = medida1ViewController.swift; sourceTree = "<group>"; };
+		49B1E7041B40693E00676566 /* medida2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = medida2ViewController.swift; path = ../medida2ViewController.swift; sourceTree = "<group>"; };
+		49B1E7081B40704900676566 /* medida3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = medida3ViewController.swift; sourceTree = "<group>"; };
+		49B1E70A1B407D3A00676566 /* medida4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = medida4ViewController.swift; sourceTree = "<group>"; };
+		49B1E70C1B40915E00676566 /* rssTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rssTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +172,10 @@
 			children = (
 				493476D01B15232200379C73 /* ViewController.swift */,
 				493476D21B15232200379C73 /* Main.storyboard */,
+				49B1E70C1B40915E00676566 /* rssTableViewController.swift */,
+				49B1E7021B40667200676566 /* medida1ViewController.swift */,
+				49B1E7041B40693E00676566 /* medida2ViewController.swift */,
+				49B1E7081B40704900676566 /* medida3ViewController.swift */,
 				49B1E7001B3F2BA500676566 /* BorrameViewController.swift */,
 				4957AEB81B31E6AA002223E2 /* ResultadoTestViewController.swift */,
 				4957AE941B31ACA2002223E2 /* Pregunta7ViewController.swift */,
@@ -201,6 +215,7 @@
 				493476F01B15272E00379C73 /* DefinicionViewController.swift */,
 				493476EE1B15241100379C73 /* QueEsViewController.swift */,
 				493476CC1B15232200379C73 /* Supporting Files */,
+				49B1E70A1B407D3A00676566 /* medida4ViewController.swift */,
 			);
 			path = "Violencia de género";
 			sourceTree = "<group>";
@@ -336,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4957AEA91B31AD2C002223E2 /* Pregunta17ViewController.swift in Sources */,
+				49B1E70B1B407D3A00676566 /* medida4ViewController.swift in Sources */,
 				493476F51B15A74E00379C73 /* QueHacerViewController.swift in Sources */,
 				493476F31B15360600379C73 /* RasgosViewController.swift in Sources */,
 				4957AE8B1B319D7C002223E2 /* MCRViewController.swift in Sources */,
@@ -346,8 +362,11 @@
 				4957AEAB1B31AD38002223E2 /* Pregunta18ViewController.swift in Sources */,
 				4957AEA51B31AD10002223E2 /* Pregunta15ViewController.swift in Sources */,
 				4957AE811B28F617002223E2 /* Pregunta2ViewController.swift in Sources */,
+				49B1E7091B40704900676566 /* medida3ViewController.swift in Sources */,
 				4957AE911B31AB18002223E2 /* Pregunta5ViewController.swift in Sources */,
 				493476F11B15272E00379C73 /* DefinicionViewController.swift in Sources */,
+				49B1E7031B40667200676566 /* medida1ViewController.swift in Sources */,
+				49B1E70D1B40915E00676566 /* rssTableViewController.swift in Sources */,
 				49B1E7011B3F2BA500676566 /* BorrameViewController.swift in Sources */,
 				4957AE8D1B31A491002223E2 /* MSPViewController.swift in Sources */,
 				493476D11B15232200379C73 /* ViewController.swift in Sources */,
@@ -363,6 +382,7 @@
 				493476F91B15DF3500379C73 /* SerEspViewController.swift in Sources */,
 				4957AE871B3186D8002223E2 /* ConductasViewController.swift in Sources */,
 				4957AEB91B31E6AA002223E2 /* ResultadoTestViewController.swift in Sources */,
+				49B1E7051B40693E00676566 /* medida2ViewController.swift in Sources */,
 				493476FB1B15E1F000379C73 /* TestViewController.swift in Sources */,
 				4957AEA11B31ACEE002223E2 /* Pregunta13ViewController.swift in Sources */,
 				4957AE831B28FAFB002223E2 /* Pregunta3ViewController.swift in Sources */,

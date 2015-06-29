@@ -306,9 +306,22 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="efA-ZY-Tu7">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qgY-hh-QBs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ojodiana" translatesAutoresizingMaskIntoConstraints="NO" id="qgY-hh-QBs">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" red="1" green="0.39488909560000002" blue="0.34709581969999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="108" id="FvA-W9-LgY"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="FvA-W9-LgY"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="FvA-W9-LgY"/>
+                                    </mask>
+                                </variation>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLt-fk-aq9">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
@@ -323,55 +336,55 @@ Medidas de Seguridad Personal, son las medidas que adoptamos basándonos en la p
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9iQ-7f-8xm">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="BotonContinuar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8d3-Dg-urJ" kind="show" id="nLQ-NQ-m3B"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="qgY-hh-QBs" firstAttribute="trailing" secondItem="8VY-TZ-NEL" secondAttribute="trailingMargin" id="2e7-8z-3ld"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xLt-fk-aq9" secondAttribute="trailing" id="7j6-6W-sSP"/>
-                            <constraint firstItem="glB-ak-NtR" firstAttribute="top" secondItem="efA-ZY-Tu7" secondAttribute="bottom" id="8eI-ZC-1mC"/>
-                            <constraint firstItem="qgY-hh-QBs" firstAttribute="top" secondItem="vuB-if-fCS" secondAttribute="bottom" constant="8" symbolic="YES" id="92q-lA-TTt"/>
-                            <constraint firstAttribute="trailing" secondItem="efA-ZY-Tu7" secondAttribute="trailing" id="979-A7-bYx"/>
-                            <constraint firstItem="xLt-fk-aq9" firstAttribute="leading" secondItem="8VY-TZ-NEL" secondAttribute="leadingMargin" id="Neq-Lv-dqs"/>
-                            <constraint firstItem="efA-ZY-Tu7" firstAttribute="leading" secondItem="qgY-hh-QBs" secondAttribute="trailing" constant="-320" id="Nuz-sA-PNs">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-384"/>
-                            </constraint>
-                            <constraint firstItem="qgY-hh-QBs" firstAttribute="centerX" secondItem="efA-ZY-Tu7" secondAttribute="centerX" id="O7J-9c-DBJ"/>
-                            <constraint firstItem="qgY-hh-QBs" firstAttribute="leading" secondItem="8VY-TZ-NEL" secondAttribute="leadingMargin" id="RD0-rM-cqo"/>
-                            <constraint firstItem="xLt-fk-aq9" firstAttribute="top" secondItem="qgY-hh-QBs" secondAttribute="bottom" constant="8" id="TYf-7Q-Xt6"/>
-                            <constraint firstItem="efA-ZY-Tu7" firstAttribute="leading" secondItem="qgY-hh-QBs" secondAttribute="trailing" constant="-320" id="VH1-bv-6Mm">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-384"/>
-                            </constraint>
-                            <constraint firstItem="efA-ZY-Tu7" firstAttribute="leading" secondItem="8VY-TZ-NEL" secondAttribute="leading" id="X8k-QZ-b9b"/>
-                            <constraint firstItem="glB-ak-NtR" firstAttribute="top" secondItem="xLt-fk-aq9" secondAttribute="bottom" constant="8" id="fmC-ms-kEF"/>
-                            <constraint firstItem="efA-ZY-Tu7" firstAttribute="top" secondItem="qgY-hh-QBs" secondAttribute="bottom" constant="-200" id="sYV-a1-9Ym">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-180"/>
-                            </constraint>
-                            <constraint firstItem="efA-ZY-Tu7" firstAttribute="top" secondItem="8VY-TZ-NEL" secondAttribute="top" id="xBg-0K-q9d"/>
-                            <constraint firstItem="qgY-hh-QBs" firstAttribute="top" secondItem="vuB-if-fCS" secondAttribute="bottom" constant="8" id="zHa-FF-Bdq"/>
+                            <constraint firstItem="9iQ-7f-8xm" firstAttribute="leading" secondItem="8VY-TZ-NEL" secondAttribute="leadingMargin" id="29N-cR-E7U"/>
+                            <constraint firstItem="9iQ-7f-8xm" firstAttribute="trailing" secondItem="8VY-TZ-NEL" secondAttribute="trailingMargin" id="5A7-P4-k5b"/>
+                            <constraint firstItem="9iQ-7f-8xm" firstAttribute="top" secondItem="xLt-fk-aq9" secondAttribute="bottom" constant="8" id="8IA-u8-NZa"/>
+                            <constraint firstItem="efA-ZY-Tu7" firstAttribute="top" secondItem="8VY-TZ-NEL" secondAttribute="top" id="Aec-HF-F3P"/>
+                            <constraint firstItem="xLt-fk-aq9" firstAttribute="leading" secondItem="8VY-TZ-NEL" secondAttribute="leadingMargin" id="Dqg-3x-F11"/>
+                            <constraint firstAttribute="trailing" secondItem="efA-ZY-Tu7" secondAttribute="trailing" id="NOL-Zi-d2W"/>
+                            <constraint firstItem="glB-ak-NtR" firstAttribute="top" secondItem="9iQ-7f-8xm" secondAttribute="bottom" constant="20" id="VS0-lo-NhI"/>
+                            <constraint firstItem="xLt-fk-aq9" firstAttribute="top" secondItem="qgY-hh-QBs" secondAttribute="bottom" constant="8" id="Wpj-xq-oPH"/>
+                            <constraint firstItem="glB-ak-NtR" firstAttribute="top" secondItem="efA-ZY-Tu7" secondAttribute="bottom" id="fUz-yZ-Pqf"/>
+                            <constraint firstItem="efA-ZY-Tu7" firstAttribute="leading" secondItem="8VY-TZ-NEL" secondAttribute="leading" id="g3v-57-ZKc"/>
+                            <constraint firstItem="qgY-hh-QBs" firstAttribute="trailing" secondItem="8VY-TZ-NEL" secondAttribute="trailingMargin" id="gTF-EB-Png"/>
+                            <constraint firstItem="qgY-hh-QBs" firstAttribute="leading" secondItem="8VY-TZ-NEL" secondAttribute="leadingMargin" id="hXm-dQ-4Nq"/>
+                            <constraint firstItem="xLt-fk-aq9" firstAttribute="trailing" secondItem="8VY-TZ-NEL" secondAttribute="trailingMargin" id="kVj-d7-jiT"/>
+                            <constraint firstItem="qgY-hh-QBs" firstAttribute="top" secondItem="vuB-if-fCS" secondAttribute="bottom" constant="8" id="q8z-Iq-TCT"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="efA-ZY-Tu7"/>
                                 <exclude reference="qgY-hh-QBs"/>
                                 <exclude reference="xLt-fk-aq9"/>
+                                <exclude reference="9iQ-7f-8xm"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="8eI-ZC-1mC"/>
-                                <exclude reference="fmC-ms-kEF"/>
-                                <exclude reference="979-A7-bYx"/>
-                                <exclude reference="Nuz-sA-PNs"/>
-                                <exclude reference="VH1-bv-6Mm"/>
-                                <exclude reference="X8k-QZ-b9b"/>
-                                <exclude reference="sYV-a1-9Ym"/>
-                                <exclude reference="xBg-0K-q9d"/>
-                                <exclude reference="2e7-8z-3ld"/>
-                                <exclude reference="92q-lA-TTt"/>
-                                <exclude reference="O7J-9c-DBJ"/>
-                                <exclude reference="RD0-rM-cqo"/>
-                                <exclude reference="zHa-FF-Bdq"/>
-                                <exclude reference="7j6-6W-sSP"/>
-                                <exclude reference="Neq-Lv-dqs"/>
-                                <exclude reference="TYf-7Q-Xt6"/>
+                                <exclude reference="Aec-HF-F3P"/>
+                                <exclude reference="NOL-Zi-d2W"/>
+                                <exclude reference="g3v-57-ZKc"/>
+                                <exclude reference="gTF-EB-Png"/>
+                                <exclude reference="hXm-dQ-4Nq"/>
+                                <exclude reference="q8z-Iq-TCT"/>
+                                <exclude reference="Dqg-3x-F11"/>
+                                <exclude reference="Wpj-xq-oPH"/>
+                                <exclude reference="kVj-d7-jiT"/>
+                                <exclude reference="29N-cR-E7U"/>
+                                <exclude reference="5A7-P4-k5b"/>
+                                <exclude reference="8IA-u8-NZa"/>
+                                <exclude reference="VS0-lo-NhI"/>
+                                <exclude reference="fUz-yZ-Pqf"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -379,24 +392,23 @@ Medidas de Seguridad Personal, son las medidas que adoptamos basándonos en la p
                                 <include reference="efA-ZY-Tu7"/>
                                 <include reference="qgY-hh-QBs"/>
                                 <include reference="xLt-fk-aq9"/>
+                                <include reference="9iQ-7f-8xm"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="8eI-ZC-1mC"/>
-                                <include reference="fmC-ms-kEF"/>
-                                <include reference="979-A7-bYx"/>
-                                <include reference="Nuz-sA-PNs"/>
-                                <include reference="VH1-bv-6Mm"/>
-                                <include reference="X8k-QZ-b9b"/>
-                                <include reference="sYV-a1-9Ym"/>
-                                <include reference="xBg-0K-q9d"/>
-                                <include reference="2e7-8z-3ld"/>
-                                <include reference="92q-lA-TTt"/>
-                                <include reference="O7J-9c-DBJ"/>
-                                <include reference="RD0-rM-cqo"/>
-                                <include reference="zHa-FF-Bdq"/>
-                                <include reference="7j6-6W-sSP"/>
-                                <include reference="Neq-Lv-dqs"/>
-                                <include reference="TYf-7Q-Xt6"/>
+                                <include reference="Aec-HF-F3P"/>
+                                <include reference="NOL-Zi-d2W"/>
+                                <include reference="g3v-57-ZKc"/>
+                                <include reference="gTF-EB-Png"/>
+                                <include reference="hXm-dQ-4Nq"/>
+                                <include reference="q8z-Iq-TCT"/>
+                                <include reference="Dqg-3x-F11"/>
+                                <include reference="Wpj-xq-oPH"/>
+                                <include reference="kVj-d7-jiT"/>
+                                <include reference="29N-cR-E7U"/>
+                                <include reference="5A7-P4-k5b"/>
+                                <include reference="8IA-u8-NZa"/>
+                                <include reference="VS0-lo-NhI"/>
+                                <include reference="fUz-yZ-Pqf"/>
                             </mask>
                         </variation>
                     </view>
@@ -405,6 +417,369 @@ Medidas de Seguridad Personal, son las medidas que adoptamos basándonos en la p
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UgH-jG-pci" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4099.5" y="574.5"/>
+        </scene>
+        <!--Cuando regreses a tu casa...-->
+        <scene sceneID="OuI-8c-BSD">
+            <objects>
+                <viewController id="8d3-Dg-urJ" customClass="medida1ViewController" customModule="Violencia_de_ge_nero" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DVl-zk-y2h"/>
+                        <viewControllerLayoutGuide type="bottom" id="1PF-Zl-KvN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ccF-7K-yS5">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="OnS-BU-pNY">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="peR-3C-mZ0">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <mutableString key="text">Siempre que te sea posible:- Varía la hora de llegada a casa.- Coge caminos alternativos. - Si puedes, que te acompañen	Si vuelves con vehículo: - Intenta cambiar la zona de aparcamiento.- No bajes del vehículo hasta estar segura que no corres peligro- Las cerraduras de las puertas siempre cerradas.En garajes comunitarios, antes de estacionar: - Asegúrate de que la persona de la cual te proteges no se encuentra por la zona.- Evítalo en momentos que veas que puedes correr peligroEn la entrada al portal de tu vivienda:- Comprueba siempre antes de entrar que no existe peligro.- Deben de estar con espejos para evitar zonas sin visibilidad</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v6r-aG-Ad1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="BotonContinuar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jb0-tP-rlu" kind="show" id="g4Y-QC-T4u"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="peR-3C-mZ0" firstAttribute="top" secondItem="DVl-zk-y2h" secondAttribute="bottom" constant="8" id="88P-6G-2YD"/>
+                            <constraint firstItem="peR-3C-mZ0" firstAttribute="trailing" secondItem="ccF-7K-yS5" secondAttribute="trailingMargin" id="CxB-ut-qnc"/>
+                            <constraint firstItem="1PF-Zl-KvN" firstAttribute="top" secondItem="OnS-BU-pNY" secondAttribute="bottom" id="EmP-OV-woy"/>
+                            <constraint firstItem="v6r-aG-Ad1" firstAttribute="top" secondItem="peR-3C-mZ0" secondAttribute="bottom" constant="8" id="GTz-YN-s2a"/>
+                            <constraint firstItem="OnS-BU-pNY" firstAttribute="leading" secondItem="ccF-7K-yS5" secondAttribute="leading" id="M3n-sg-7zV"/>
+                            <constraint firstItem="peR-3C-mZ0" firstAttribute="leading" secondItem="ccF-7K-yS5" secondAttribute="leadingMargin" id="WFx-Sf-Or4"/>
+                            <constraint firstAttribute="trailing" secondItem="OnS-BU-pNY" secondAttribute="trailing" id="j1S-p4-qvl"/>
+                            <constraint firstItem="1PF-Zl-KvN" firstAttribute="top" secondItem="v6r-aG-Ad1" secondAttribute="bottom" constant="20" id="ou5-vm-rDh"/>
+                            <constraint firstItem="OnS-BU-pNY" firstAttribute="top" secondItem="ccF-7K-yS5" secondAttribute="top" id="s9o-Cy-gAF"/>
+                            <constraint firstAttribute="centerX" secondItem="v6r-aG-Ad1" secondAttribute="centerX" id="tvq-g3-aGe"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="OnS-BU-pNY"/>
+                                <exclude reference="peR-3C-mZ0"/>
+                                <exclude reference="v6r-aG-Ad1"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="M3n-sg-7zV"/>
+                                <exclude reference="j1S-p4-qvl"/>
+                                <exclude reference="s9o-Cy-gAF"/>
+                                <exclude reference="88P-6G-2YD"/>
+                                <exclude reference="CxB-ut-qnc"/>
+                                <exclude reference="WFx-Sf-Or4"/>
+                                <exclude reference="GTz-YN-s2a"/>
+                                <exclude reference="tvq-g3-aGe"/>
+                                <exclude reference="EmP-OV-woy"/>
+                                <exclude reference="ou5-vm-rDh"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="OnS-BU-pNY"/>
+                                <include reference="peR-3C-mZ0"/>
+                                <include reference="v6r-aG-Ad1"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="M3n-sg-7zV"/>
+                                <include reference="j1S-p4-qvl"/>
+                                <include reference="s9o-Cy-gAF"/>
+                                <include reference="88P-6G-2YD"/>
+                                <include reference="CxB-ut-qnc"/>
+                                <include reference="WFx-Sf-Or4"/>
+                                <include reference="GTz-YN-s2a"/>
+                                <include reference="tvq-g3-aGe"/>
+                                <include reference="EmP-OV-woy"/>
+                                <include reference="ou5-vm-rDh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cuando regreses a tu casa..." id="eQ5-cH-h7F">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="dyU-Hk-OSH"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J0G-wR-h5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4987.5" y="574.5"/>
+        </scene>
+        <!--Cuando salgas de tu casa...-->
+        <scene sceneID="SgU-JW-83t">
+            <objects>
+                <viewController id="jb0-tP-rlu" customClass="medida2ViewController" customModule="Violencia_de_ge_nero" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E3L-pp-ipN"/>
+                        <viewControllerLayoutGuide type="bottom" id="pFl-bH-RRE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wdA-av-SGK">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="NFg-fA-HCP">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8va-Io-QQY">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="BotonContinuar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uOc-uX-Cbi" kind="show" id="Q9d-b0-I18"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="koN-F7-W00">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <mutableString key="text">Siempre que sea posible: - Varía la hora de salida de tu casa.- Coge caminos alternativos.- Si puedes, que te acompañen.Antes de salir:- Comprueba por las ventanas y a ser posible por la mirilla del portón si ves a la persona que te inspira desconfianza.- No cierres el portón hasta asegurarte que no esta.Ten cuidado si bajas sola:- En el ascensor, sobre todo al abrirse la puerta. - Si ves mucho riesgo, utiliza las escaleras o baja con algún vecino o familiar.En el portal:- Detente un momento y mira antes de salir a la calle. - Si vas acompañada de niños pequeños, no dejes que salgan solos. Llévalos de la mano.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="koN-F7-W00" firstAttribute="leading" secondItem="wdA-av-SGK" secondAttribute="leadingMargin" id="3qL-Rw-jcd"/>
+                            <constraint firstAttribute="trailing" secondItem="NFg-fA-HCP" secondAttribute="trailing" id="AqV-qe-q9w"/>
+                            <constraint firstAttribute="centerX" secondItem="8va-Io-QQY" secondAttribute="centerX" id="Htx-UG-i0f"/>
+                            <constraint firstItem="pFl-bH-RRE" firstAttribute="top" secondItem="NFg-fA-HCP" secondAttribute="bottom" id="KGu-WJ-RYZ"/>
+                            <constraint firstItem="NFg-fA-HCP" firstAttribute="top" secondItem="wdA-av-SGK" secondAttribute="top" id="Lrr-bH-jNQ"/>
+                            <constraint firstItem="koN-F7-W00" firstAttribute="top" secondItem="E3L-pp-ipN" secondAttribute="bottom" constant="8" id="TiH-ko-sec"/>
+                            <constraint firstItem="pFl-bH-RRE" firstAttribute="top" secondItem="8va-Io-QQY" secondAttribute="bottom" constant="20" id="jmF-yP-u8o"/>
+                            <constraint firstItem="8va-Io-QQY" firstAttribute="top" secondItem="koN-F7-W00" secondAttribute="bottom" constant="8" id="rMf-d3-RGr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="koN-F7-W00" secondAttribute="trailing" id="ruq-Mn-Nxv"/>
+                            <constraint firstItem="NFg-fA-HCP" firstAttribute="leading" secondItem="wdA-av-SGK" secondAttribute="leading" id="xIR-Ks-k4R"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="NFg-fA-HCP"/>
+                                <exclude reference="8va-Io-QQY"/>
+                                <exclude reference="koN-F7-W00"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="AqV-qe-q9w"/>
+                                <exclude reference="Lrr-bH-jNQ"/>
+                                <exclude reference="xIR-Ks-k4R"/>
+                                <exclude reference="3qL-Rw-jcd"/>
+                                <exclude reference="TiH-ko-sec"/>
+                                <exclude reference="ruq-Mn-Nxv"/>
+                                <exclude reference="Htx-UG-i0f"/>
+                                <exclude reference="rMf-d3-RGr"/>
+                                <exclude reference="KGu-WJ-RYZ"/>
+                                <exclude reference="jmF-yP-u8o"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="NFg-fA-HCP"/>
+                                <include reference="8va-Io-QQY"/>
+                                <include reference="koN-F7-W00"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="AqV-qe-q9w"/>
+                                <include reference="Lrr-bH-jNQ"/>
+                                <include reference="xIR-Ks-k4R"/>
+                                <include reference="3qL-Rw-jcd"/>
+                                <include reference="TiH-ko-sec"/>
+                                <include reference="ruq-Mn-Nxv"/>
+                                <include reference="Htx-UG-i0f"/>
+                                <include reference="rMf-d3-RGr"/>
+                                <include reference="KGu-WJ-RYZ"/>
+                                <include reference="jmF-yP-u8o"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cuando salgas de tu casa..." id="aHI-aS-86o">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="TBm-x0-f2C"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eUA-Yn-O03" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5736" y="574.5"/>
+        </scene>
+        <!--Cuando te dirijas a algún lugar...-->
+        <scene sceneID="Wrl-ok-Vux">
+            <objects>
+                <viewController id="uOc-uX-Cbi" customClass="medida3ViewController" customModule="Violencia_de_ge_nero" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wa5-iK-FTh"/>
+                        <viewControllerLayoutGuide type="bottom" id="jcg-ke-Pz5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aBM-c3-3TU">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="AlO-0y-ztT">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uxx-7x-D5R">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="BotonContinuar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bM8-mW-ipE" kind="show" id="j9t-nd-0cg"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIr-GZ-2jD">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <mutableString key="text">Cuando te dirijas al trabajo o cualquier otro lugar: - Trata de coger por zonas de concurrido público e intenta variar los itinerarios.Si vas en un vehículo:- Mantén los seguros puestos y las ventanillas cerradas.- Mantén distancia con lo vehículos que van delante.Antes de salir del vehículo trata de asegurarte de que no te persigue. Cuando pares el vehículo:- Deja espacio suficiente con el vehículo que te precede para poder salir en caso necesario.- No aparques en zonas oscuras o de poco público.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZIr-GZ-2jD" firstAttribute="top" secondItem="wa5-iK-FTh" secondAttribute="bottom" constant="8" id="9JI-Bl-FmF"/>
+                            <constraint firstItem="AlO-0y-ztT" firstAttribute="leading" secondItem="aBM-c3-3TU" secondAttribute="leading" id="AOz-u5-3ee"/>
+                            <constraint firstItem="jcg-ke-Pz5" firstAttribute="top" secondItem="uxx-7x-D5R" secondAttribute="bottom" constant="20" id="O58-ih-3Yc"/>
+                            <constraint firstItem="AlO-0y-ztT" firstAttribute="top" secondItem="aBM-c3-3TU" secondAttribute="top" id="PfI-zn-7Mf"/>
+                            <constraint firstAttribute="trailing" secondItem="AlO-0y-ztT" secondAttribute="trailing" id="RlA-yZ-HFu"/>
+                            <constraint firstItem="ZIr-GZ-2jD" firstAttribute="leading" secondItem="aBM-c3-3TU" secondAttribute="leadingMargin" id="UtG-le-9U2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZIr-GZ-2jD" secondAttribute="trailing" id="Xi6-hh-kHv"/>
+                            <constraint firstItem="uxx-7x-D5R" firstAttribute="top" secondItem="ZIr-GZ-2jD" secondAttribute="bottom" constant="8" id="YGE-Ei-8WX"/>
+                            <constraint firstAttribute="centerX" secondItem="uxx-7x-D5R" secondAttribute="centerX" id="aFD-h2-z8F"/>
+                            <constraint firstItem="jcg-ke-Pz5" firstAttribute="top" secondItem="AlO-0y-ztT" secondAttribute="bottom" id="b2P-S1-tyP"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="AlO-0y-ztT"/>
+                                <exclude reference="uxx-7x-D5R"/>
+                                <exclude reference="ZIr-GZ-2jD"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="AOz-u5-3ee"/>
+                                <exclude reference="PfI-zn-7Mf"/>
+                                <exclude reference="RlA-yZ-HFu"/>
+                                <exclude reference="9JI-Bl-FmF"/>
+                                <exclude reference="UtG-le-9U2"/>
+                                <exclude reference="Xi6-hh-kHv"/>
+                                <exclude reference="YGE-Ei-8WX"/>
+                                <exclude reference="aFD-h2-z8F"/>
+                                <exclude reference="O58-ih-3Yc"/>
+                                <exclude reference="b2P-S1-tyP"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="AlO-0y-ztT"/>
+                                <include reference="uxx-7x-D5R"/>
+                                <include reference="ZIr-GZ-2jD"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="AOz-u5-3ee"/>
+                                <include reference="PfI-zn-7Mf"/>
+                                <include reference="RlA-yZ-HFu"/>
+                                <include reference="9JI-Bl-FmF"/>
+                                <include reference="UtG-le-9U2"/>
+                                <include reference="Xi6-hh-kHv"/>
+                                <include reference="YGE-Ei-8WX"/>
+                                <include reference="aFD-h2-z8F"/>
+                                <include reference="O58-ih-3Yc"/>
+                                <include reference="b2P-S1-tyP"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cuando te dirijas a algún lugar..." id="5NR-5w-js1">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="vOU-x8-Ao1"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubU-SC-b1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6574.5" y="568.5"/>
+        </scene>
+        <!--Consejos finales-->
+        <scene sceneID="yR1-Qy-k7R">
+            <objects>
+                <viewController id="bM8-mW-ipE" customClass="medida4ViewController" customModule="Violencia_de_ge_nero" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5s5-2F-vsd"/>
+                        <viewControllerLayoutGuide type="bottom" id="JcC-t8-Pb5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7kN-aN-NGC">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="2Ii-fJ-tRE">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJV-mA-tQe">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="BotonContinuar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="is4-v6-h3q"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hc-GI-SSe">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <string key="text">Si te encuentras en cualquiera de las situaciones de peligro descritas anteriormente, avisa inmediatamente a la Policía. Ten el número de alerta en marcación rápida. No esperes al último momento para dar aviso a la policía, hazlo ya.En los transportes públicos colócate de forma que veas todo tu entorno.No te dejes sorprender, estate atenta.Ante cualquier agresión utiliza los Métodos de Control del Riesgo y sal corriendo hacia lugar seguro.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2Ii-fJ-tRE" firstAttribute="leading" secondItem="7kN-aN-NGC" secondAttribute="leading" id="0P9-fr-G9L"/>
+                            <constraint firstItem="2Ii-fJ-tRE" firstAttribute="top" secondItem="7kN-aN-NGC" secondAttribute="top" id="6YI-2w-DEo"/>
+                            <constraint firstItem="1hc-GI-SSe" firstAttribute="top" secondItem="5s5-2F-vsd" secondAttribute="bottom" constant="8" id="Bmh-vq-iFQ"/>
+                            <constraint firstAttribute="trailing" secondItem="2Ii-fJ-tRE" secondAttribute="trailing" id="ICp-m8-3We"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1hc-GI-SSe" secondAttribute="trailing" id="V3W-9q-YgC"/>
+                            <constraint firstItem="JcC-t8-Pb5" firstAttribute="top" secondItem="2Ii-fJ-tRE" secondAttribute="bottom" id="bvZ-jA-6uE"/>
+                            <constraint firstAttribute="centerX" secondItem="EJV-mA-tQe" secondAttribute="centerX" id="dWD-hE-f9M"/>
+                            <constraint firstItem="EJV-mA-tQe" firstAttribute="top" secondItem="1hc-GI-SSe" secondAttribute="bottom" constant="8" id="gdB-vq-oFt"/>
+                            <constraint firstItem="1hc-GI-SSe" firstAttribute="leading" secondItem="7kN-aN-NGC" secondAttribute="leadingMargin" id="iwm-SW-weJ"/>
+                            <constraint firstItem="JcC-t8-Pb5" firstAttribute="top" secondItem="EJV-mA-tQe" secondAttribute="bottom" constant="20" id="kva-XS-ijp"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="2Ii-fJ-tRE"/>
+                                <exclude reference="EJV-mA-tQe"/>
+                                <exclude reference="1hc-GI-SSe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="0P9-fr-G9L"/>
+                                <exclude reference="6YI-2w-DEo"/>
+                                <exclude reference="ICp-m8-3We"/>
+                                <exclude reference="Bmh-vq-iFQ"/>
+                                <exclude reference="V3W-9q-YgC"/>
+                                <exclude reference="iwm-SW-weJ"/>
+                                <exclude reference="dWD-hE-f9M"/>
+                                <exclude reference="gdB-vq-oFt"/>
+                                <exclude reference="bvZ-jA-6uE"/>
+                                <exclude reference="kva-XS-ijp"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="2Ii-fJ-tRE"/>
+                                <include reference="EJV-mA-tQe"/>
+                                <include reference="1hc-GI-SSe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="0P9-fr-G9L"/>
+                                <include reference="6YI-2w-DEo"/>
+                                <include reference="ICp-m8-3We"/>
+                                <include reference="Bmh-vq-iFQ"/>
+                                <include reference="V3W-9q-YgC"/>
+                                <include reference="iwm-SW-weJ"/>
+                                <include reference="dWD-hE-f9M"/>
+                                <include reference="gdB-vq-oFt"/>
+                                <include reference="bvZ-jA-6uE"/>
+                                <include reference="kva-XS-ijp"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Consejos finales" id="4NV-Y6-Bc0">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="9wX-eM-CcG"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cod-9M-vgW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7344" y="574.5"/>
         </scene>
         <!--¿Qué es la violencia de género?-->
         <scene sceneID="MuJ-e5-Cd3">
@@ -481,54 +856,22 @@ Medidas de Seguridad Personal, son las medidas que adoptamos basándonos en la p
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="xan-N1-Kwm" firstAttribute="top" secondItem="iJU-wT-Uc6" secondAttribute="bottom" constant="8" id="0Ex-MA-1cm">
-                                <variation key="heightClass=regular-widthClass=compact" constant="79"/>
-                            </constraint>
-                            <constraint firstItem="Mzz-3d-BwZ" firstAttribute="leading" secondItem="Nad-8N-N9M" secondAttribute="trailing" constant="-286" id="4wu-eU-RNM">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-384"/>
-                            </constraint>
-                            <constraint firstItem="iJU-wT-Uc6" firstAttribute="trailing" secondItem="1Lk-HJ-t5c" secondAttribute="trailingMargin" id="6M6-hS-qpV"/>
-                            <constraint firstItem="iJU-wT-Uc6" firstAttribute="top" secondItem="bOD-Dy-Stq" secondAttribute="bottom" constant="8" id="8aG-0v-RgD"/>
-                            <constraint firstItem="Mzz-3d-BwZ" firstAttribute="leading" secondItem="Nad-8N-N9M" secondAttribute="trailing" constant="-286" id="ARw-N4-mPd">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-384"/>
-                            </constraint>
-                            <constraint firstItem="Mzz-3d-BwZ" firstAttribute="top" secondItem="bOD-Dy-Stq" secondAttribute="bottom" constant="-71" id="C1t-Gh-ggE"/>
-                            <constraint firstItem="osV-Y5-oXi" firstAttribute="leading" secondItem="1Lk-HJ-t5c" secondAttribute="leadingMargin" id="Fk9-Pe-qeZ"/>
-                            <constraint firstItem="osV-Y5-oXi" firstAttribute="leading" secondItem="Mzz-3d-BwZ" secondAttribute="trailing" constant="-286" id="GOP-nG-J4R">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-384"/>
-                            </constraint>
-                            <constraint firstItem="Nad-8N-N9M" firstAttribute="top" secondItem="osV-Y5-oXi" secondAttribute="bottom" constant="8" id="Ml6-do-7GN"/>
-                            <constraint firstItem="osV-Y5-oXi" firstAttribute="leading" secondItem="Mzz-3d-BwZ" secondAttribute="trailing" constant="-286" id="N5l-5G-81C">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-384"/>
-                            </constraint>
-                            <constraint firstItem="Nad-8N-N9M" firstAttribute="trailing" secondItem="1Lk-HJ-t5c" secondAttribute="trailingMargin" id="RVa-kI-cpz"/>
-                            <constraint firstItem="Mzz-3d-BwZ" firstAttribute="leading" secondItem="Ta6-It-ley" secondAttribute="trailing" constant="-286" id="SlW-2o-Rgy"/>
-                            <constraint firstItem="iJU-wT-Uc6" firstAttribute="trailing" secondItem="1Lk-HJ-t5c" secondAttribute="trailingMargin" id="Szd-Nh-qQf"/>
+                            <constraint firstItem="bOD-Dy-Stq" firstAttribute="top" secondItem="X5N-xT-Nzn" secondAttribute="bottom" constant="8" id="EYL-bv-s4y"/>
+                            <constraint firstItem="iJU-wT-Uc6" firstAttribute="top" secondItem="bOD-Dy-Stq" secondAttribute="bottom" constant="8" id="FE8-iy-q8t"/>
+                            <constraint firstItem="bOD-Dy-Stq" firstAttribute="leading" secondItem="1Lk-HJ-t5c" secondAttribute="leadingMargin" id="NF6-NF-fDu"/>
+                            <constraint firstItem="xan-N1-Kwm" firstAttribute="trailing" secondItem="1Lk-HJ-t5c" secondAttribute="trailingMargin" id="Pvb-rl-Qg5"/>
+                            <constraint firstItem="osV-Y5-oXi" firstAttribute="leading" secondItem="1Lk-HJ-t5c" secondAttribute="leadingMargin" id="TNf-6r-i7d"/>
                             <constraint firstItem="Mzz-3d-BwZ" firstAttribute="leading" secondItem="1Lk-HJ-t5c" secondAttribute="leading" id="Tdb-7W-OFV"/>
                             <constraint firstItem="Mzz-3d-BwZ" firstAttribute="top" secondItem="X5N-xT-Nzn" secondAttribute="bottom" id="VJK-Vc-FSj"/>
-                            <constraint firstItem="Mzz-3d-BwZ" firstAttribute="leading" secondItem="iJU-wT-Uc6" secondAttribute="trailing" constant="-286" id="hNe-gt-3My">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-384"/>
-                            </constraint>
-                            <constraint firstItem="Mzz-3d-BwZ" firstAttribute="leading" secondItem="iJU-wT-Uc6" secondAttribute="trailing" constant="-286" id="hv1-Ue-v66">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-384"/>
-                            </constraint>
+                            <constraint firstItem="Nad-8N-N9M" firstAttribute="top" secondItem="osV-Y5-oXi" secondAttribute="bottom" constant="8" id="bDM-QZ-ibB"/>
+                            <constraint firstItem="Ta6-It-ley" firstAttribute="leading" secondItem="1Lk-HJ-t5c" secondAttribute="leadingMargin" id="cGb-If-8AM"/>
+                            <constraint firstItem="osV-Y5-oXi" firstAttribute="top" secondItem="xan-N1-Kwm" secondAttribute="bottom" constant="8" id="ffA-Qh-7l3"/>
+                            <constraint firstItem="Ta6-It-ley" firstAttribute="top" secondItem="iJU-wT-Uc6" secondAttribute="bottom" constant="8" id="he6-rg-MYA"/>
                             <constraint firstItem="Jzc-ye-ozW" firstAttribute="top" secondItem="Mzz-3d-BwZ" secondAttribute="bottom" id="ioe-px-JkM"/>
-                            <constraint firstItem="xan-N1-Kwm" firstAttribute="leading" secondItem="Mzz-3d-BwZ" secondAttribute="trailing" constant="-286" id="mkC-AM-Tfw"/>
+                            <constraint firstItem="iJU-wT-Uc6" firstAttribute="trailing" secondItem="1Lk-HJ-t5c" secondAttribute="trailingMargin" id="jhQ-be-cRJ"/>
                             <constraint firstAttribute="trailing" secondItem="Mzz-3d-BwZ" secondAttribute="trailing" id="nMV-34-cE7"/>
-                            <constraint firstItem="Mzz-3d-BwZ" firstAttribute="leading" secondItem="Ta6-It-ley" secondAttribute="trailing" constant="-286" id="pbA-Rk-zCL"/>
-                            <constraint firstItem="Ta6-It-ley" firstAttribute="top" secondItem="xan-N1-Kwm" secondAttribute="bottom" constant="8" id="qTE-l4-mal">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-134"/>
-                            </constraint>
-                            <constraint firstItem="Nad-8N-N9M" firstAttribute="trailing" secondItem="1Lk-HJ-t5c" secondAttribute="trailingMargin" id="rpz-8a-T2f"/>
-                            <constraint firstItem="Mzz-3d-BwZ" firstAttribute="leading" secondItem="bOD-Dy-Stq" secondAttribute="trailing" constant="-286" id="sOl-VF-WJS"/>
-                            <constraint firstItem="iJU-wT-Uc6" firstAttribute="leading" secondItem="Mzz-3d-BwZ" secondAttribute="trailing" constant="-286" id="tUk-kT-7mT"/>
-                            <constraint firstItem="iJU-wT-Uc6" firstAttribute="top" secondItem="osV-Y5-oXi" secondAttribute="bottom" constant="8" id="war-pG-Xft">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-276"/>
-                            </constraint>
-                            <constraint firstItem="osV-Y5-oXi" firstAttribute="top" secondItem="bOD-Dy-Stq" secondAttribute="bottom" constant="8" id="yrt-Hn-bUD">
-                                <variation key="heightClass=regular-widthClass=compact" constant="221"/>
-                            </constraint>
-                            <constraint firstItem="xan-N1-Kwm" firstAttribute="leading" secondItem="Mzz-3d-BwZ" secondAttribute="trailing" constant="-286" id="znz-Mf-RD4"/>
+                            <constraint firstItem="xan-N1-Kwm" firstAttribute="top" secondItem="Ta6-It-ley" secondAttribute="bottom" constant="8" id="ttx-jc-15w"/>
+                            <constraint firstItem="Nad-8N-N9M" firstAttribute="trailing" secondItem="1Lk-HJ-t5c" secondAttribute="trailingMargin" id="uw3-To-huf"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -540,34 +883,22 @@ Medidas de Seguridad Personal, son las medidas que adoptamos basándonos en la p
                                 <exclude reference="Nad-8N-N9M"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="ioe-px-JkM"/>
-                                <exclude reference="Ml6-do-7GN"/>
-                                <exclude reference="RVa-kI-cpz"/>
-                                <exclude reference="rpz-8a-T2f"/>
-                                <exclude reference="qTE-l4-mal"/>
-                                <exclude reference="6M6-hS-qpV"/>
-                                <exclude reference="8aG-0v-RgD"/>
-                                <exclude reference="Szd-Nh-qQf"/>
-                                <exclude reference="tUk-kT-7mT"/>
-                                <exclude reference="war-pG-Xft"/>
-                                <exclude reference="Fk9-Pe-qeZ"/>
-                                <exclude reference="GOP-nG-J4R"/>
-                                <exclude reference="N5l-5G-81C"/>
-                                <exclude reference="yrt-Hn-bUD"/>
-                                <exclude reference="0Ex-MA-1cm"/>
-                                <exclude reference="mkC-AM-Tfw"/>
-                                <exclude reference="znz-Mf-RD4"/>
-                                <exclude reference="4wu-eU-RNM"/>
-                                <exclude reference="ARw-N4-mPd"/>
-                                <exclude reference="C1t-Gh-ggE"/>
-                                <exclude reference="SlW-2o-Rgy"/>
                                 <exclude reference="Tdb-7W-OFV"/>
                                 <exclude reference="VJK-Vc-FSj"/>
-                                <exclude reference="hNe-gt-3My"/>
-                                <exclude reference="hv1-Ue-v66"/>
                                 <exclude reference="nMV-34-cE7"/>
-                                <exclude reference="pbA-Rk-zCL"/>
-                                <exclude reference="sOl-VF-WJS"/>
+                                <exclude reference="EYL-bv-s4y"/>
+                                <exclude reference="NF6-NF-fDu"/>
+                                <exclude reference="FE8-iy-q8t"/>
+                                <exclude reference="jhQ-be-cRJ"/>
+                                <exclude reference="cGb-If-8AM"/>
+                                <exclude reference="he6-rg-MYA"/>
+                                <exclude reference="Pvb-rl-Qg5"/>
+                                <exclude reference="ttx-jc-15w"/>
+                                <exclude reference="TNf-6r-i7d"/>
+                                <exclude reference="ffA-Qh-7l3"/>
+                                <exclude reference="bDM-QZ-ibB"/>
+                                <exclude reference="uw3-To-huf"/>
+                                <exclude reference="ioe-px-JkM"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -580,34 +911,22 @@ Medidas de Seguridad Personal, son las medidas que adoptamos basándonos en la p
                                 <include reference="Nad-8N-N9M"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="ioe-px-JkM"/>
-                                <include reference="Ml6-do-7GN"/>
-                                <exclude reference="RVa-kI-cpz"/>
-                                <include reference="rpz-8a-T2f"/>
-                                <include reference="qTE-l4-mal"/>
-                                <exclude reference="6M6-hS-qpV"/>
-                                <include reference="8aG-0v-RgD"/>
-                                <include reference="Szd-Nh-qQf"/>
-                                <include reference="tUk-kT-7mT"/>
-                                <include reference="war-pG-Xft"/>
-                                <include reference="Fk9-Pe-qeZ"/>
-                                <include reference="GOP-nG-J4R"/>
-                                <include reference="N5l-5G-81C"/>
-                                <include reference="yrt-Hn-bUD"/>
-                                <include reference="0Ex-MA-1cm"/>
-                                <include reference="mkC-AM-Tfw"/>
-                                <include reference="znz-Mf-RD4"/>
-                                <include reference="4wu-eU-RNM"/>
-                                <include reference="ARw-N4-mPd"/>
-                                <include reference="C1t-Gh-ggE"/>
-                                <include reference="SlW-2o-Rgy"/>
                                 <include reference="Tdb-7W-OFV"/>
                                 <include reference="VJK-Vc-FSj"/>
-                                <include reference="hNe-gt-3My"/>
-                                <include reference="hv1-Ue-v66"/>
                                 <include reference="nMV-34-cE7"/>
-                                <include reference="pbA-Rk-zCL"/>
-                                <include reference="sOl-VF-WJS"/>
+                                <include reference="EYL-bv-s4y"/>
+                                <include reference="NF6-NF-fDu"/>
+                                <include reference="FE8-iy-q8t"/>
+                                <include reference="jhQ-be-cRJ"/>
+                                <include reference="cGb-If-8AM"/>
+                                <include reference="he6-rg-MYA"/>
+                                <include reference="Pvb-rl-Qg5"/>
+                                <include reference="ttx-jc-15w"/>
+                                <include reference="TNf-6r-i7d"/>
+                                <include reference="ffA-Qh-7l3"/>
+                                <include reference="bDM-QZ-ibB"/>
+                                <include reference="uw3-To-huf"/>
+                                <include reference="ioe-px-JkM"/>
                             </mask>
                         </variation>
                     </view>
@@ -756,13 +1075,19 @@ Accede al modelo de solicitud de Orden de Protección y al esquema de tramitaci�
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kS4-Y5-fCR">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <string key="text">1- Intena conservar la calma.  
+                                <mutableString key="text">1- Intena conservar la calma.  
+ 
 2- Avisa a la Policía 
-Contacta telefónicamente, o acude al centro mas cercano, tu declaración será atendida por personal especializado y tendrás un asesoramiento permanente. 
+Contacta telefónicamente, o acude al centro mas cercano, tu declaración será atendida por personal especializado y tendrás un asesoramiento permanente.  
+
 3- No modifiques tu aspecto.
 No te laves ni laves tus ropas, no alteres el lugar de la agresión. 
-Identifica y describe a tu agresor y todos los datos que consideres oportunos.4- Acude a centro médico, pide parte facultativo y realizate fotografías de las lesiones que tengas.
-5- Recuerda que puedes abandonar el domicilio familiar sin perder derechos, siempre que en un plazo de 30 días interpongas denuncia o demanda de separación. Si tienes miedo de regresar a por tus cosas llama a la policía o a la Guardia Civil para que te acompañen. Si puedes, lleva contigo lo más imprescindible:
+Identifica y describe a tu agresor y todos los datos que consideres oportunos.  
+
+4- Acude a centro médico, pide parte facultativo y realizate fotografías de las lesiones que tengas. 
+
+5- Recuerda que puedes abandonar el domicilio familiar sin perder derechos, siempre que en un plazo de 30 días interpongas denuncia o demanda de separación. Si tienes miedo de regresar a por tus cosas llama a la policía o a la Guardia Civil para que te acompañen. Si puedes, lleva contigo lo más imprescindible: 
+
 •	El DNI o Pasaporte tuyo y de tus hijas e hijos.
 •	Las tarjetas sanitaria y de la Seguridad Social.
 •	El Libro de Familia
@@ -777,12 +1102,13 @@ Identifica y describe a tu agresor y todos los datos que consideres oportunos.4-
 •	Documentos de Seguros.
 •	Medicamentos.
 •	Agenda de direcciones y de teléfonos de familiares y amigos.
-•	Tu nómina y la de la persona con la que convives o bien copia de la última Declaración de la Renta.
-No te preocupes si dejas algo atrás, la Policía puede acompañarte en cualquier momento si necesitas recoger algo de tu domicilio.</string>
+•	Tu nómina y la de la persona con la que convives o bien copia de la última Declaración de la Renta. 
+
+No te preocupes si dejas algo atrás, la Policía puede acompañarte en cualquier momento si necesitas recoger algo de tu domicilio.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tKs-qo-tZE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cochepolicia" translatesAutoresizingMaskIntoConstraints="NO" id="tKs-qo-tZE">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" red="1" green="0.39488909560000002" blue="0.34709581969999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -884,7 +1210,7 @@ No te preocupes si dejas algo atrás, la Policía puede acompañarte en cualquie
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pr-vD-arq">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <string key="text">Definiciones desde Organismos Internacionales, Nacionales y Autonómicos (Comunidad Andaluza):
+                                <mutableString key="text">Definiciones desde Organismos Internacionales, Nacionales y Autonómicos (Comunidad Andaluza):
 
 Declaración de la Asamblea General de Naciones Unidas
 
@@ -901,10 +1227,10 @@ Ley 13/2007 de 26 de Noviembre de Medidas de Prevención y Protección Integral 
 
 Violencia que como manifestación de la discriminación, la situación de desigualdad y las relaciones de poder de los hombres sobre las mujeres, se ejercen sobre esta por el mero hecho de serlo.
 
-LA VIOLENCIA CONTRA LAS MUJERES BASADA EN EL GÉNERO ES….
+La violencia contra las mujeres basada en el género es:
 
 Todo acto de violencia basado en la pertenencia al sexo femenino que tenga o pueda tener como resultado sufrimiento físico, sexual o psicológico. También se incluyen las amenazas de tales actos, la coacción o la privación arbitraria de la libertad, tanto si se producen en la vida pública o privada (ONU, 1993).
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -994,16 +1320,25 @@ Todo acto de violencia basado en la pertenencia al sexo femenino que tenga o pue
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzD-0q-T5L">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <string key="text">RASGOS DE LA VIOLENCIA DE GENERO 
+                                <mutableString key="text">RASGOS DE LA VIOLENCIA DE GENERO 
 
 La violencia de género puede darse en todos los grupos sociales y en todos los niveles socioeconómicos y culturales.
+
 El agresor ejerce la violencia para someter a la mujer y perpetuar así la relación de dominio y control.
+
 Los actos violentos se repiten y aumentan mientras continúe la relación. 
+
 Esto es lo que se denomina CICLO DE LA VIOLENCIA: que consta de tres fases y una vez instalado en una relación de pareja es muy difícil frenarlo, tendiendo a repetirse con más frecuencia.
-	* ACUMULACIÓN DE TENSIÓN: es el resultado de la acumulación de conflictos en la pareja. Se detecta al observar cambios imprevistos y repentinos en el estado de ánimo del agresor. Reacciones agresivas a sus frustraciones o ante cualquier señal de independencia que manifieste la mujer.
-	* EXPLOSIÓN DE LA VIOLENCIA: es el resultado de la tensión acumulada. Descarga de la tensión acumulada en la fase anterior. Esta descarga puede adoptar distintas formas y grados de intensidad.
-	* LUNA DE MIEL: Es la fase de la manipulación afectiva. Disminuye la tensión. El agresor puede pedir perdón y prometer no volver a llevar a cabo acciones violentas. Reconoce su culpa y resurge la relación. Sin embargo, esta etapa dará paso a una nueva fase de tensión.
-</string>
+
+	* ACUMULACIÓN DE TENSIÓN: 
+Es el resultado de la acumulación de conflictos en la pareja. Se detecta al observar cambios imprevistos y repentinos en el estado de ánimo del agresor. Reacciones agresivas a sus frustraciones o ante cualquier señal de independencia que manifieste la mujer.
+
+	* EXPLOSIÓN DE LA VIOLENCIA: 
+Es el resultado de la tensión acumulada. Descarga de la tensión acumulada en la fase anterior. Esta descarga puede adoptar distintas formas y grados de intensidad.
+
+	* LUNA DE MIEL: 
+Es la fase de la manipulación afectiva. Disminuye la tensión. El agresor puede pedir perdón y prometer no volver a llevar a cabo acciones violentas. Reconoce su culpa y resurge la relación. Sin embargo, esta etapa dará paso a una nueva fase de tensión.
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1206,31 +1541,47 @@ Esto es lo que se denomina CICLO DE LA VIOLENCIA: que consta de tres fases y una
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUR-rv-mcs">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <string key="text">Servicios especializados en violencia de género
+                                <mutableString key="text">Servicios especializados en violencia de género
 Servicios especializados en violencia de género
 Si lo deseas, antes de tomar la decisión de denunciar la situación de violencia de género que tú o tus hijas e hijos hayáis sufrido, puedes acudir a los siguientes servicios o recursos especializados en violencia de género donde podrán informarte y asesorarte en lo que necesites:
-Teléfonos gratuitos
+
+Teléfonos gratuitos:
+
 •	Teléfono 900 200 999 de información a la mujer: disponible durante las 24 horas, todos los días del año. Es anónimo y confidencial y el equipo humano que lo atiende está formado por personal especializado. Permite resolver de manera inmediata dudas y problemas diversos. En este teléfono te darán asesoramiento jurídico especializado y atención y gestión de acogimiento en caso de emergencia.
+
 •	Teléfono de emergencias 112: que te atenderá permanentemente ante cualquier situación de urgencia y seguridad.
+
 •	Teléfono 016: es el Servicio telefónico de información y de asesoramiento jurídico en materia de violencia de género y no deja huella. Y te ofrece información sobre qué hacer en caso de maltrato, sobre los recursos y derechos que te corresponden, así como asesoramiento jurídico.
+
 Servicio de Asistencia a Víctimas en Andalucía (SAVA)
 El SAVA (Servicio de Asistencia a Víctimas en Andalucía) es un servicio de carácter público y gratuito, integrado por un equipo técnico multidisciplinar de profesionales del derecho, la psicología y el trabajo social, que tiene como objetivos principales:
+
 •	Informarte, protegerte y acompañarte en tu paso por el Juzgado, ofreciéndote el asesoramiento jurídico, la asistencia psicológica y el apoyo social que puedas necesitar. Te acompañarán en la interposición de la denuncia o al solicitar una orden de protección.
+
 •	Acercan la Justicia a la ciudadanía, facilitando información y orientación sobre cualquier cuestión relacionada con tu proceso judicial.
+
 •	Colaboran y facilitan la coordinación entre todos los organismos, instituciones y servicios que puedan estar implicados en la asistencia a las víctimas: Judicatura, Fiscalía, Cuerpos y Fuerzas de Seguridad, Servicios Sociales y Sanitarios, Asociaciones y cualesquiera otros que persigan el mismo interés.
+
 Consulta las oficinas del Servicio de Asistencia a Víctimas de Andalucía:
-•	Directorio de oficinas del SAVA.                                                              
+
+•	Directorio de oficinas del SAVA.
+                                                           
 Dependencias de las Fuerzas y Cuerpos de Seguridad
+           
 Las Fuerzas y Cuerpos de Seguridad del Estado también cuentan con unidades especializadas en violencia de género:
+           
 •	La Guardia Civil, que cuenta con un dispositivo especializado de atención a la mujer y a los menores (EMUME).
+           
 •	La Policía Nacional, también dispone de una unidad especializada de atención a la mujer, el Servicio de Atención a la Familia, (SAF) en todas las Jefaturas de Policía.
 Además, puedes contactar con la Policía local de tu municipio.
+           
 En tu localidad
-En tu localidad puedes acudir al Centro Municipal de Información a la Mujer, al Punto de Información a la Mujer o a los Servicios Sociales Comunitarios, donde podrán informarte, asesorarte y apoyarte estando más cerca de ti. Infórmate en tu Ayuntamiento donde se encuentran ubicados estos servicios en tú Municipio.</string>
+En tu localidad puedes acudir al Centro Municipal de Información a la Mujer, al Punto de Información a la Mujer o a los Servicios Sociales Comunitarios, donde podrán informarte, asesorarte y apoyarte estando más cerca de ti. Infórmate en tu Ayuntamiento donde se encuentran ubicados estos servicios en tú Municipio.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2UG-Lx-MJt">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="telefono" translatesAutoresizingMaskIntoConstraints="NO" id="2UG-Lx-MJt">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" red="1" green="0.39488909560000002" blue="0.34709581969999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -1311,7 +1662,7 @@ En tu localidad puedes acudir al Centro Municipal de Información a la Mujer, al
             </objects>
             <point key="canvasLocation" x="6282" y="-1926"/>
         </scene>
-        <!--Conductas View Controller-->
+        <!--Conductas-->
         <scene sceneID="XyF-j2-0fe">
             <objects>
                 <viewController id="Wha-mn-CaC" customClass="ConductasViewController" customModule="Violencia_de_ge_nero" customModuleProvider="target" sceneMemberID="viewController">
@@ -1326,36 +1677,31 @@ En tu localidad puedes acudir al Centro Municipal de Información a la Mujer, al
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="ga2-os-ZWB">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kDN-Vp-bDa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="abuso" translatesAutoresizingMaskIntoConstraints="NO" id="kDN-Vp-bDa">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" red="1" green="0.39488909560000002" blue="0.34709581969999997" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZf-rM-pag">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <string key="text">¿QUÉ CONDUCTAS ENTENDEMOS POR VIOLENCIA DE GENERO?
+                                <mutableString key="text">¿QUÉ CONDUCTAS ENTENDEMOS POR VIOLENCIA DE GENERO?
 
-¿ QUE ES ABUSO FISICO?
+¿Qué es abuso físico?
 •	Cualquier acto de fuerza que se realice contra el cuerpo de la mujer con resultado de lesión física o daño (puñetazos, patadas, tirones de pelo, bocados…).
 
-¿QUE ES ABUSO VERBAL, EMOCIONAL Y PSICOLÓGICO?
-
+¿Qué es abuso verbal, emocional y psicológico?
 •	Actos del hombre hacia la mujer que provocan en la misma desvaloración o sufrimiento, sentimiento de culpa, vergüenza e indefensión. El agresor tiene por objeto incrementar la dominación sobre la víctima (insultos, humillaciones, aislamiento social prohibiendo contacto con familiares y/o amigos…).
 
-¿QUÉ ES VIOLENCIA SOCIAL?
-
+¿Qué es violencia social?
 •	El agresor limita los contactos sociales y familiares de su pareja, aislándola y negándole el apoyo social de sus amistades. Implica controlar a la mujer, limitar sus actividades, imponer horarios, manipular las llamadas telefónicas o controlar los SMS.
 
-¿QUE ES ABUSO SEXUAL?
-
+¿Qué es abuso sexual?
 •	Comportamientos que pretendan imponer una relación sexual no deseada mediante presiones físicas o psíquicas
 
-¿QUÉ ES ABUSO AMBIENTAL?
-
+¿Qué es abuso ambiental?
 •	El agresor realiza acciones con objeto de destruir el entorno y la paz emocional de la víctima (romper objetos del hogar, impedir el descanso, maltratar a sus mascotas…).
 
-¿QUE ES ABUSO FINANCIERO?
-
-•	Control de los recursos económicos y patrimoniales para impedir la autonomía de la mujer (negarle el acceso al dinero familiar…)</string>
+¿Qué es abuso financiero?
+•	Control de los recursos económicos y patrimoniales para impedir la autonomía de la mujer (negarle el acceso al dinero familiar…)</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1420,7 +1766,7 @@ En tu localidad puedes acudir al Centro Municipal de Información a la Mujer, al
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="2vH-m3-49f"/>
+                    <navigationItem key="navigationItem" title="Conductas" id="2vH-m3-49f"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Krc-03-S29" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1459,22 +1805,49 @@ En tu localidad puedes acudir al Centro Municipal de Información a la Mujer, al
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Esta es la descripción del vídeo" translatesAutoresizingMaskIntoConstraints="NO" id="cjm-2E-vmL">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="207" id="fRw-do-OM5">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="141"/>
+                                    </constraint>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="455" width="367" height="207"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="fRw-do-OM5"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="fRw-do-OM5"/>
+                                    </mask>
                                 </variation>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cjm-2E-vmL" firstAttribute="trailing" secondItem="yJ0-bl-RHy" secondAttribute="trailingMargin" id="AJT-Ej-JD0"/>
+                            <constraint firstItem="B5Q-xH-QLy" firstAttribute="top" secondItem="cjm-2E-vmL" secondAttribute="bottom" constant="20" id="LLV-Fs-VaT"/>
+                            <constraint firstItem="cjm-2E-vmL" firstAttribute="leading" secondItem="yJ0-bl-RHy" secondAttribute="leadingMargin" id="gk1-4r-MlR"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="cjm-2E-vmL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="AJT-Ej-JD0"/>
+                                <exclude reference="gk1-4r-MlR"/>
+                                <exclude reference="LLV-Fs-VaT"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="cjm-2E-vmL"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="AJT-Ej-JD0"/>
+                                <include reference="gk1-4r-MlR"/>
+                                <include reference="LLV-Fs-VaT"/>
                             </mask>
                         </variation>
                     </view>
@@ -4700,6 +5073,7 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
         <image name="BannerRasgos" width="300" height="108"/>
         <image name="BotonCircularNo" width="83" height="83"/>
         <image name="BotonCircularSi" width="83" height="83"/>
+        <image name="BotonContinuar" width="270" height="63"/>
         <image name="BotonRosaAlarma" width="270" height="63"/>
         <image name="BotonRosaAsesoria" width="270" height="63"/>
         <image name="BotonRosaComenzarTest" width="270" height="63"/>
@@ -4713,34 +5087,38 @@ Las preguntas se refieren de su marido, pareja, novio, o persona que mantiene un
         <image name="BotonRosaRasgos" width="270" height="63"/>
         <image name="BotonRosaServiciosEspecializados" width="270" height="63"/>
         <image name="BotonRosaTest" width="270" height="63"/>
+        <image name="abuso" width="300" height="108"/>
+        <image name="cochepolicia" width="300" height="108"/>
+        <image name="ojodiana" width="300" height="108"/>
         <image name="ojos" width="300" height="108"/>
         <image name="pinkButtonQueEs" width="270" height="63"/>
+        <image name="telefono" width="300" height="108"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QDD-C1-f1z"/>
-        <segue reference="OWt-XN-8Kc"/>
-        <segue reference="0TU-8u-cx9"/>
-        <segue reference="puz-l1-q4J"/>
-        <segue reference="Pc2-h0-gC9"/>
-        <segue reference="i5r-gA-ykj"/>
-        <segue reference="5zm-af-CwR"/>
-        <segue reference="qNG-88-5nP"/>
-        <segue reference="bof-v9-wj2"/>
-        <segue reference="wJ0-vt-c2n"/>
-        <segue reference="kIr-Oe-0Xm"/>
-        <segue reference="b0X-xm-B78"/>
-        <segue reference="Khn-ac-7ZX"/>
-        <segue reference="p4o-ar-7Gp"/>
-        <segue reference="ggZ-MZ-cTy"/>
-        <segue reference="Hz8-gd-E70"/>
-        <segue reference="Fpy-9t-1cY"/>
-        <segue reference="vtl-p0-GKS"/>
-        <segue reference="n4D-5f-Gwe"/>
-        <segue reference="KrX-UZ-0pg"/>
-        <segue reference="Dqc-hg-LVp"/>
-        <segue reference="BWk-BQ-Vkl"/>
-        <segue reference="yKk-22-He7"/>
-        <segue reference="nU6-g7-YCe"/>
+        <segue reference="is4-v6-h3q"/>
         <segue reference="RQV-f5-F6c"/>
+        <segue reference="nU6-g7-YCe"/>
+        <segue reference="yKk-22-He7"/>
+        <segue reference="BWk-BQ-Vkl"/>
+        <segue reference="Dqc-hg-LVp"/>
+        <segue reference="KrX-UZ-0pg"/>
+        <segue reference="n4D-5f-Gwe"/>
+        <segue reference="vtl-p0-GKS"/>
+        <segue reference="Fpy-9t-1cY"/>
+        <segue reference="Hz8-gd-E70"/>
+        <segue reference="ggZ-MZ-cTy"/>
+        <segue reference="p4o-ar-7Gp"/>
+        <segue reference="Khn-ac-7ZX"/>
+        <segue reference="b0X-xm-B78"/>
+        <segue reference="kIr-Oe-0Xm"/>
+        <segue reference="wJ0-vt-c2n"/>
+        <segue reference="bof-v9-wj2"/>
+        <segue reference="qNG-88-5nP"/>
+        <segue reference="5zm-af-CwR"/>
+        <segue reference="i5r-gA-ykj"/>
+        <segue reference="Pc2-h0-gC9"/>
+        <segue reference="puz-l1-q4J"/>
+        <segue reference="0TU-8u-cx9"/>
+        <segue reference="OWt-XN-8Kc"/>
     </inferredMetricsTieBreakers>
 </document>
