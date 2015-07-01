@@ -58,6 +58,12 @@
 		49B1E7091B40704900676566 /* medida3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E7081B40704900676566 /* medida3ViewController.swift */; };
 		49B1E70B1B407D3A00676566 /* medida4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E70A1B407D3A00676566 /* medida4ViewController.swift */; };
 		49B1E70D1B40915E00676566 /* rssTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E70C1B40915E00676566 /* rssTableViewController.swift */; };
+		49B1E7111B41A2A300676566 /* FakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E7101B41A2A300676566 /* FakeViewController.swift */; };
+		49B1E7131B41A88100676566 /* video1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E7121B41A88100676566 /* video1ViewController.swift */; };
+		49B1E7151B43155300676566 /* DesplazamientoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E7141B43155200676566 /* DesplazamientoViewController.swift */; };
+		49B1E7171B43174F00676566 /* EsquivasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E7161B43174F00676566 /* EsquivasViewController.swift */; };
+		49B1E7191B4319C300676566 /* BloqueosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E7181B4319C300676566 /* BloqueosViewController.swift */; };
+		49B1E71B1B431B6700676566 /* DesviosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1E71A1B431B6700676566 /* DesviosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +132,12 @@
 		49B1E7081B40704900676566 /* medida3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = medida3ViewController.swift; sourceTree = "<group>"; };
 		49B1E70A1B407D3A00676566 /* medida4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = medida4ViewController.swift; sourceTree = "<group>"; };
 		49B1E70C1B40915E00676566 /* rssTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rssTableViewController.swift; sourceTree = "<group>"; };
+		49B1E7101B41A2A300676566 /* FakeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeViewController.swift; sourceTree = "<group>"; };
+		49B1E7121B41A88100676566 /* video1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = video1ViewController.swift; sourceTree = "<group>"; };
+		49B1E7141B43155200676566 /* DesplazamientoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesplazamientoViewController.swift; sourceTree = "<group>"; };
+		49B1E7161B43174F00676566 /* EsquivasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EsquivasViewController.swift; sourceTree = "<group>"; };
+		49B1E7181B4319C300676566 /* BloqueosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloqueosViewController.swift; sourceTree = "<group>"; };
+		49B1E71A1B431B6700676566 /* DesviosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesviosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +184,12 @@
 			children = (
 				493476D01B15232200379C73 /* ViewController.swift */,
 				493476D21B15232200379C73 /* Main.storyboard */,
+				49B1E7141B43155200676566 /* DesplazamientoViewController.swift */,
+				49B1E7161B43174F00676566 /* EsquivasViewController.swift */,
+				49B1E7181B4319C300676566 /* BloqueosViewController.swift */,
+				49B1E71A1B431B6700676566 /* DesviosViewController.swift */,
+				49B1E7121B41A88100676566 /* video1ViewController.swift */,
+				49B1E7101B41A2A300676566 /* FakeViewController.swift */,
 				49B1E70C1B40915E00676566 /* rssTableViewController.swift */,
 				49B1E7021B40667200676566 /* medida1ViewController.swift */,
 				49B1E7041B40693E00676566 /* medida2ViewController.swift */,
@@ -361,6 +379,7 @@
 				4957AEA71B31AD1F002223E2 /* Pregunta16ViewController.swift in Sources */,
 				4957AEAB1B31AD38002223E2 /* Pregunta18ViewController.swift in Sources */,
 				4957AEA51B31AD10002223E2 /* Pregunta15ViewController.swift in Sources */,
+				49B1E7111B41A2A300676566 /* FakeViewController.swift in Sources */,
 				4957AE811B28F617002223E2 /* Pregunta2ViewController.swift in Sources */,
 				49B1E7091B40704900676566 /* medida3ViewController.swift in Sources */,
 				4957AE911B31AB18002223E2 /* Pregunta5ViewController.swift in Sources */,
@@ -373,11 +392,14 @@
 				4957AEB31B31AD75002223E2 /* Pregunta22ViewController.swift in Sources */,
 				4957AE991B31ACBD002223E2 /* Pregunta9ViewController.swift in Sources */,
 				4957AEB11B31AD67002223E2 /* Pregunta21ViewController.swift in Sources */,
+				49B1E71B1B431B6700676566 /* DesviosViewController.swift in Sources */,
 				493476FD1B15E60600379C73 /* ObjetivoViewController.swift in Sources */,
 				4957AE8F1B31AAA8002223E2 /* Pregunta4ViewController.swift in Sources */,
 				4957AE971B31ACAE002223E2 /* Pregunta8ViewController.swift in Sources */,
 				493476EF1B15241100379C73 /* QueEsViewController.swift in Sources */,
+				49B1E7151B43155300676566 /* DesplazamientoViewController.swift in Sources */,
 				493476CF1B15232200379C73 /* AppDelegate.swift in Sources */,
+				49B1E7131B41A88100676566 /* video1ViewController.swift in Sources */,
 				4957AE9D1B31ACD4002223E2 /* Pregunta11ViewController.swift in Sources */,
 				493476F91B15DF3500379C73 /* SerEspViewController.swift in Sources */,
 				4957AE871B3186D8002223E2 /* ConductasViewController.swift in Sources */,
@@ -389,7 +411,9 @@
 				4957AE7D1B28B73D002223E2 /* Pregunta1ViewController.swift in Sources */,
 				4957AEB51B31AD84002223E2 /* Pregunta23ViewController.swift in Sources */,
 				4957AEA31B31AD00002223E2 /* Pregunta14ViewController.swift in Sources */,
+				49B1E7191B4319C300676566 /* BloqueosViewController.swift in Sources */,
 				4957AEAF1B31AD5A002223E2 /* Pregunta20ViewController.swift in Sources */,
+				49B1E7171B43174F00676566 /* EsquivasViewController.swift in Sources */,
 				493476F71B15AFAA00379C73 /* OrdenViewController.swift in Sources */,
 				4957AEAD1B31AD45002223E2 /* Pregunta19ViewController.swift in Sources */,
 				4957AE931B31AB95002223E2 /* Pregunta6ViewController.swift in Sources */,

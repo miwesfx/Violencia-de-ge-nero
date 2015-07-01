@@ -1,18 +1,18 @@
 //
-//  MCRViewController.swift
+//  FakeViewController.swift
 //  Violencia de género
 //
-//  Created by Miguel on 17/6/15.
+//  Created by Miguel on 29/6/15.
 //  Copyright (c) 2015 Miguel Pérez. All rights reserved.
 //
 
 import UIKit
 
-class MCRViewController: UIViewController {
-    
+class FakeViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
 
